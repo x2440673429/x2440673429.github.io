@@ -1,0 +1,346 @@
+
+
+
+.kugou{
+    width: 1000px;
+   margin: auto;
+    margin-top: 40px;
+    overflow: hidden;
+}
+.ccr{
+    width: 218px;
+    float: left;
+}
+.Popular{
+    width: 218px;
+    /* height: 571px; */
+    border:1px solid #f2f2f2;
+    border-bottom: none;
+}
+.shou li{
+    color: #555;
+}
+.shou li:hover{
+    background-color: #f5f8fb;
+    color: #288fe7;
+}
+.shou .liact{
+    background: #169af3 !important;
+    color: #fff !important;
+
+}
+.Popular a{
+    display: block;
+    height: 36px;
+    padding-left: 15px;
+    line-height: 36px;
+    font-size: 14px;
+    
+   cursor: pointer;
+   margin-bottom: 4px;
+}
+.dan{
+    width: 218px;
+    height: 45px;
+    border-bottom: 1px solid #f2f2f2;
+    cursor: pointer;
+}
+.dan p{
+    line-height: 45px;
+    margin-left: 15px;
+    display: inline;
+    color: #555;
+    font-weight: 400;
+    font-size: 16px;
+}
+.xiangxia{
+    margin: 20px 20px 0 0 ;
+    float: right;
+    width: 9px;
+    height: 5px;
+    background: url(https://staticssl.kugou.com/common/images/pc_temp_v2/icon_splice.png?20150814)no-repeat;
+    background-position: -450px -120px;
+    
+}
+ul{
+    list-style: none;
+}
+.curr{
+    background: url("https://imgessl.kugou.com/commendpic/20170907/20170907172600632008.png")no-repeat;
+    background-position: 112px 5px;
+}
+
+.curr1{
+    background: url("https://imgessl.kugou.com/commendpic/20170907/20170907172600632008.png")no-repeat;
+    background-position: 125px 5px;
+}
+ul img{
+    float: left;
+    margin: 10px 5px 0 15px;
+}
+.characteristic{
+    width:   218px;
+    
+    border:1px solid #f2f2f2;
+}
+.characteristic a{
+    display: block;
+    height: 36px;
+    padding-left: 15px;
+    line-height: 36px;
+    font-size: 14px;
+    
+    cursor: pointer;
+    margin-bottom: 4px;
+}
+
+.global{
+    width: 218px;
+    
+    border:1px solid #f2f2f2;
+}
+.global a{
+    display: block;
+    height: 36px;
+    padding-left: 15px;
+    line-height: 36px;
+    font-size: 14px;
+   
+    cursor: pointer;
+    margin-bottom: 4px;
+}
+.Soar{
+    width: 780px;
+    float: left;
+    padding-left: 30px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.Soar_top{
+    width: 750px;
+    height: 57px;
+    border-bottom: 1px dotted #cacaca;
+    margin-bottom: 24px;
+}
+.Soar_top a{
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 33px;
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: 400;
+    line-height: 100%;
+    font-size: 24px;
+}
+.Soar_top .date{
+    color: #999;
+    display: inline-block;
+    font-size: 14px;
+}
+.Soar_top  button{
+    float: right;
+    font-size: 14px;
+    width: 112px;
+    background: #169af3;
+    outline: none;
+    height: 34px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.Soar_top  button span{
+    display: inline-block;
+    width: 9px;
+    height: 15px;
+    background: url(https://www.kugou.com/yy/static/images/play_icon.png);
+    
+}
+.Soar_top  button b{
+    font-weight:normal ; 
+    font-size: 14px;
+    color: #fff;
+}
+.Soar_top  button:hover{
+    background-color: #158fe1;
+}
+.all{
+    width: 750px;
+    padding: 0 10px;
+    box-sizing: border-box;
+   
+    height: 30px;
+}
+
+.all .mark {
+    width: 14px;
+    height: 14px;
+    background: url(https://staticssl.kugou.com/common/images/pc_temp_v2/icon_splice.png?20150814)no-repeat;
+    background-position: -180px -180px;
+    cursor: pointer;
+    float: left;
+    margin-top: 5px;
+}
+.all  a{
+    line-height: 55px;
+    font-size: 14px;
+    color: #999;
+    display: inline-block;
+    margin: -16px 0 0 10px;
+}
+.election{
+    width: 750px;
+    
+    box-sizing: border-box;
+    
+}
+.election  .big{
+    width: 750px;
+    height: 55px;
+    border-bottom: 1px dotted #cacaca;
+    line-height: 55px;
+    position: relative;
+   cursor: pointer;
+    box-sizing: border-box;
+    padding: 0 10px;
+    padding-left: 40px;
+}
+.election  .big .mark{
+    background: url(https://staticssl.kugou.com/common/images/pc_temp_v2/icon_splice.png?20150814)no-repeat;
+    background-position: -180px -180px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+.election  .big b{
+    font-size: 18px;
+    font-family: Tahoma;
+    color: #fe2c62;
+    font-weight: 400;
+    display: inline-block;
+    width: 15px;
+}
+.election  .big a{
+    
+    
+    color: #999;
+    display: inline-block;
+    width: 19px;
+}
+.election  .big span{
+    max-width: 55%;
+    text-decoration: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #333;
+    margin-left: 6%;
+}
+.election  .big em{
+    font-style: normal;
+    color: #999;
+    font-size: 14px;
+    float: right;
+    margin-right: 20px;
+
+}
+.election .play{
+    background: url(https://staticssl.kugou.com/common/images/pc_temp_v2/icon_splice.png?20150814)no-repeat;
+    width: 12px;
+    height: 14px;
+    position: absolute;
+    top: 23px;
+    right: 130px;
+    border: none;
+    display: none;
+    /* background-position:  */
+}
+.election .share{
+    background: url(https://staticssl.kugou.com/common/images/pc_temp_v2/icon_splice.png?20150814)no-repeat;
+    background-position: -298px 0;
+    width: 16px;
+    height: 14px;
+    position: absolute;
+    top: 23px;
+    right: 70px;
+    border: none;
+    display: none;
+}
+.election .down{
+    background: url(https://staticssl.kugou.com/common/images/pc_temp_v2/icon_splice.png?20150814)no-repeat;
+    background-position: -90px 0;
+    width: 13px;
+    height: 14px;
+    position: absolute;
+    top: 23px;
+    right: 100px;
+    border: none;
+    display: none;
+}
+
+.election  .new{
+    position: absolute;
+    top: 23px;
+    left: 72px;;
+    width: 17px;
+    height: 9px;
+    background: url(https://staticssl.kugou.com/common/images/pc_temp_v2/icon_splice.png?20150814)no-repeat;
+    background-position: -240px -240px;
+}
+.election .big:hover{
+    background: #f5f8fb;
+}
+.election .big:hover .share {
+    display: block;
+}
+.election  .big:hover .play {
+    display: block;
+}
+.election  .big:hover .down {
+    display: block;
+}
+.election  .big .down:hover{
+    background-position: -90px -30px;
+}
+.election  .big .play:hover{
+    background-position: 0 -30px;
+    
+}
+.election  .big .share:hover{
+    background-position: -298px -30px;
+    
+}
+.election  .big:hover span{
+ color: #009af3;
+}
+.election  .big:hover em{
+    color: #009af3;
+   }
+.download{
+    width: 750px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+}
+.download button{
+    width: 108px;
+    height: 36px;
+    font-size: 16px;
+    color: #fff;
+    background: #169af3;
+    margin-left: 20px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+.download button:hover{
+    background-color: #158fe1;
+}
+
+/* #shou{
+    display: none;
+} */

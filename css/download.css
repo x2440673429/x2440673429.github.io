@@ -1,0 +1,166 @@
+.crumbs{
+    width: 1000px;
+    height: 25px;
+    background: #fff;
+    margin: auto;
+    padding: 7.5px 0px;
+    line-height: 25px;
+}
+.crumbs a{
+    color: #999;
+    font-size: 13px;
+}
+.crumbs span{
+    color: #999;
+    font-size: 13px;
+    cursor: pointer;
+}
+.crumbs span:hover{
+    color: #199be5;
+}
+.pro_wrap{
+    width: 100%;
+    height: 355px;
+    background: #f8f8f8;
+}
+.pro_wrap .pro_list{
+    width: 1040px;
+    margin:auto;
+
+}
+.pro_wrap .pro_list .tuijian_products{
+    width: 280px;
+    height: 215px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 50px;
+    float: left;
+    box-shadow: 0 0 20px rgba(0,0,0,0.04);
+}
+.pro_wrap .pro_list .tuijian_products a{
+    float: right;
+    color: #c3c3c3;
+    margin-right: 16px;
+    font-size: 14px;
+}
+.pro_wrap .pro_list .tuijian_products p{
+    text-align: center;
+    color: #a2a2a2;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.pro_wrap .pro_list .tuijian_products .type_logo{
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.pro_wrap .pro_list .tuijian_products .type_logo .hov{
+    text-align: center;
+    margin-top: 23px;
+    color: #333;
+    font-size: 18px;
+}
+.pro_wrap .pro_list .tuijian_products button{
+    display: block;
+    width: 180px;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 auto;
+    margin-top: 22px;
+    background-color: #28a9f3;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    outline: none;
+    border: none;
+    background-image: url(http://download.kugou.com/static/images/downloadIcon.png);
+    background-repeat: no-repeat;
+    background-position: 40px 10px;
+     
+}
+.pro_wrap .pro_list .tuijian_products button:hover{
+    background-color: #0090e2;
+}
+.pro_wrap .pro_list .tuijian_products:hover {
+    box-shadow: 0 0 18px rgba(0,0,0,0.25);
+}
+.pro_wrap .pro_list .tuijian_products:hover .hov{
+    color: #199be5;
+    
+}
+.tuijian_products{
+    width: 100%;
+    background: #eeeff0;
+    
+}
+.tuijian_products .ku{
+    width: 1040px;
+    padding: 50px 0 30px 0;
+    margin: auto;
+  
+}
+.tuijian_products .ku .ipd{
+    width: 320px;
+    height: 92px;
+    margin-bottom: 20px;
+    padding: 16px 0px 16px 0px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.04);
+    float: left;
+    margin-right: 20px;
+}
+.tuijian_products .ku .ipd .img{
+    float: left;
+    margin: 22px 30px 0 30px;
+    cursor: pointer;
+}
+.tuijian_products .ku .ipd .banben{
+    float: right;
+    width: 175px;
+    margin-right: 35px;
+    margin-top: 8px;
+
+}
+.tuijian_products .ku .ipd .banben p{
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+.tuijian_products .ku .ipd .banben a{
+    color: #a2a2a2;
+    font-size: 14px;
+}
+.tuijian_products .ku .ipd .banben button{
+  cursor: pointer;
+    display: inline-block;
+    width: 80px;
+    height: 26px;
+    line-height: 26px;
+    margin-right: 10px;
+    background-color: #28a9f3;
+    color: #fff;
+    text-align: center;
+    outline: none;
+    border: none;
+    margin-top: 15px;
+}
+.tuijian_products .ku .ipd .banben span{
+    margin-top: 2px;
+    font-size: 14px;
+    color: #c3c3c3;
+    vertical-align: middle;
+}
+.tuijian_products .ku .ipd:hover{
+    box-shadow: 0 0 18px rgba(0,0,0,0.25);
+}
+.tuijian_products .ku .ipd:hover p{
+    color: #199be5;
+}
+.tuijian_products .ku .ipd button:hover{
+    background-color: #0090e2;
+}

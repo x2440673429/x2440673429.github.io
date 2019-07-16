@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>酷狗音乐 - 就是歌多</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/top.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/index.css'>
+    <script src='js/index.js'></script>
+    <script src='js/top.js'></script>
+</head>
+<body>
+    <!-- 头部部分 -->
+
+    <div class="top">
+        <img src="https://staticssl.kugou.com/public/root/images/logo.png" class="logo"/> 
+        <div class="sousuo_box">
+            <input type="text" placeholder="叶洛洛、妖蝠 我就喜欢宅在家"  onblur="dianji('none')" onfocus="dianji('block')" value="" id="lishi" >
+            <div class="sousuo" onclick='cunchu()' ></div>
+            <div class="History_box"  id="tanchu" >
+                <div class="History" id='fjid' >
+                 
+                </div>
+                <div class="delHistory" onclick="qingkong()" >
+                    <p onclick='empry()'>清空历史记录</p>
+                </div>
+            </div>
+        </div>
+        <div class="fuwu">
+                <a href="http://www.kugou.com/shop/help/serviceCenter">客服中心</a>
+                <a href="http://www.kugou.com/hr/html/index.html">招贤纳士</a>
+                <a href="http://vip.kugou.com/">会员中心</a>
+        </div>
+        <button type="button" value="">登录</button>
+    </div>
+
+    <!-- 导航部分 -->
+    <div class="Naviga">
+        <div class="home">
+            <a class="add act">首页</a>
+            <a class="add" href="list.html">榜单</a>
+            <a class="add" href="download.html">下载客户端</a>
+            <div class="up ">
+            <a class="add">更多 V</a>
+                <div class="inhome">
+                        <a href="diantai.html">电台</a>
+                        <a href="mv.html">MV</a>
+                        <a href="song.html">歌单V</a>
+                        <a href="man.html">歌手</a>
+                </div>
+            </div>
+            <div class="nov">
+                    <a class="nov_1" href="http://fanxing.kugou.com/?action=spreadIndex&id=3">音乐直播</a>
+                    <a class="nov_2" href="http://live.kugou.com/">酷狗LIVE</a>
+                    <a class="nov_3"href="Musician.html" >音乐人</a>
+                    <a class="nov_4"href="Become.html">成为主播</a>
+                    <a class="nov_5"href='http://www.kugou.com/shop/product/kugouproduct/index.html'>商城</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="content">
+        
+        <div class="content1">
+           <div class="photo">
+               <img src="https://imgessl.kugou.com/commendpic/20190624/20190624104535218534.jpg" id='immg'/>
+           </div>
+           <div id="arr">
+               <a onmouseover="tianma(this,0)"></a>
+               <a onmouseover="tianma(this,1)"></a>
+               <a onmouseover="tianma(this,2)"></a>
+               <a onmouseover="tianma(this,3)"></a>
+               <a onmouseover="tianma(this,4)"></a>
+               <a onmouseover="tianma(this,5)"></a>
+               <a onmouseover="tianma(this,6)"></a>
+           </div>
+           <div id="box" onclick='prev()'>〈</div>
+           <div id="box1" onclick='next()'>〉</div>
+           <div class="abc">
+                <div class="cba">
+                    <div class="a">
+                    <a>下载PC版</a>
+                </div>
+                <div class="b">
+                    <a>下载iphone版</a>
+                </div>
+                <div class="c">
+                    <a>下载Androiod版</a>
+                </div>
+                </div>
+           </div>
+    </div>
+    
+   </div>
+   <div class="yinyue">
+        <div class="gedan">
+            <div  class="shangl">
+                <div class="zuo">
+                    <a class="jing">精品</a>
+                    <a class="ge">歌单</a>
+                    <a class="duo">更多</a>
+                </div>
+                <div class="you">
+                        <a class="jing">热门</a>
+                        <a class="ge">榜单</a>
+                        <a class="duo">更多</a>
+                </div>
+            </div>
+        <div class="gg">
+            <div class="gekuang">
+                <div class="biggek" onmouseover="adddiv(this,'rb')" >
+                     <img src="https://imgessl.kugou.com/soft/collection/480/20190621/20190621103706851470.jpg" />
+                    <div class="renshu">
+                    <div class="rentou"></div>
+                       <a>30.1万</a> 
+                    </div>
+                    <div class="bomge">
+                        <p class="qingge">致郁情歌：当我被淹没时，你是又一层巨浪</p>
+                        <p class="geming">Layis-eo</p>
+                    </div>
+                </div>
+            <div class="zuok">
+                <div class="zuoshang">
+                    <div class="qq" onmouseover="adddiv(this,'rb')"> 
+                        <img src="https://imgessl.kugou.com/soft/collection/150/20190604/20190604161106775151.jpg"/>
+                        <div class="renshu">
+                            <div class="rentou"></div>
+                                <a>30.1万</a> 
+                            </div>
+                        <div class="aaa">
+                            <p class="qingge">入坑Vocaloid必听的那些传说级名曲</p>
+                            <p class="geming">Layis-eo</p>
+                        </div>
+                    </div>
+                    <div class="ww" onmouseover="adddiv(this,'rb')">
+                        <img src="https://imgessl.kugou.com/soft/collection/150/20190621/20190621114349941440.jpg"/>
+                        <div class="renshu">
+                                <div class="rentou"></div>
+                                    <a>33万</a> 
+                                </div>
+                            <div class="aaa">
+                                <p class="qingge">每周推荐歌曲</p>
+                                <p class="geming">酷狗号歌单君</p>
+                            </div>
+                    </div>
+                </div >
+                <div class="zuoxia">
+                    <div class="ee" onmouseover="adddiv(this,'rb')">
+                        <img src="https://imgessl.kugou.com/soft/collection/150/20190613/20190613200950698517.jpg"/>
+                        <div class="renshu">
+                            <div class="rentou"></div>
+                            <a>33万</a> 
+                        </div>
+                        <div class="aaa">
+                            <p class="qingge">记得你最喜欢的歌，成为了我们的现在</p>
+                            <p class="geming">Aiden</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="rr" onmouseover="adddiv(this,'rb')">
+                    <img src="https://imgessl.kugou.com/soft/collection/150/20190609/20190609121735404541.jpg"/>
+                    <div class="renshu">
+                        <div class="rentou"></div>
+                        <a>33万</a> 
+                    </div>
+                    <div class="aaa">
+                        <p class="qingge">元气满满：橘子味的阳光是什么味道？</p>
+                        <p class="geming">玄米</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="remen">
+                <div class="topbang">
+                    <div class="one1">
+                        <img onmouseover="adddiv(this,'ct')" src="https://imgessl.kugou.com/v2/rank_cover/04b10ec0bb3d8dfdc2b6cf0d30e0ebd3.jpg_240x240.jpg"/>
+                        <div class="dianyou">〉</div>
+                        <div class="text1">
+                            <b>酷狗飙升榜</b>
+                            <p>1 . 汪苏泷 - 星星坠落时 (Live)</p>
+                            <p>2 . 任贤齐 - 烛光</p>
+                        </div>
+                    </div>
+                </div>
+            <div class="topbang">
+                    <div class="one1">
+                        <img onmouseover="adddiv(this,'ct')" src="https://imgessl.kugou.com/v2/rank_cover/bc23a80bf7a2e9179460ed2b6e384849.jpg_240x240.jpg"/>
+                        <div class="dianyou">〉</div>
+                        <div class="text1">
+                            <b>酷狗TOP500</b>
+                            <p>1 . G.E.M.邓紫棋 - 来自天堂的魔鬼 (Live)</p>
+                            <p>2 . 隔壁老樊 - 多想在平庸的生活拥抱你 (Live)</p>
+                        </div>
+                    </div>
+                </div>
+            <div class="topbang">
+                    <div class="one1">
+                        <img onmouseover="adddiv(this,'ct')" src="https://imgessl.kugou.com/v2/rank_cover/47e76f9757c6bbb670630b4671961759.jpg_240x240.jpg"/>
+                        <div class="dianyou">〉</div>
+                        <div class="text1">
+                            <b>网络红歌榜</b>
+                            <p>1 . 虎二 - 你一定要幸福</p>
+                            <p>2 . 兔子牙 - 小白兔遇上卡布奇诺</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>  
+        <img src="http://adsfile.bssdlbig.kugou.com/8f30ef49f8fb242d4ec935e748610142.jpg"/ class="nvshen">
+        <div class="nwege">
+            <div class="nwetop">
+                <div class="nwezuo">
+                    <a><span>新歌</span>首发</a>
+                    <div class="city">
+                        <a onmouseover="onput(0,this)" style="color: #009af3;">华语</a>
+                        <a onmouseover="onput(1,this)">欧美</a>
+                        <a onmouseover="onput(2,this)">韩国</a>
+                        <a onmouseover="onput(3,this)">日本</a>
+                    </div>
+                    <button >
+                        <span class="sanjiao"></span>
+                        <em>全部播放</em>
+                    </button>
+                </div>
+                <div class="nweyou">
+                    <a><span>推荐</span>首发</a>
+                    <b>更多</b>
+                </div>
+            </div>
+            <div class="zhongjian">
+                <div class="bibao">
+                    <div id="gem">
+                        <p class="ye">夏婉安 - 叹离愁<span class="sp"></span></p>
+                        <p class="ye">Vk - 一生一遇 <span class="sp"></span></p>
+                        <p class="ye">虎二 - 缘分易碎 <span class="sp"></span></p>
+                        <p class="ye">贺一航 - 判若两人 <span class="sp"></span></p>
+                        <p class="ye">格子兮 - 爱恨两难 <span class="sp"></span></p>
+                        <p class="ye">孙语赛、王麒龙 - 释然 <span class="sp"></span></p>
+                        <p class="ye">鞠婧祎 - 一双翅膀【请赐我一双翅膀电视剧片尾曲】 <span class="sp"></span></p>
+                        <p class="ye">小曼 - 是否 <span class="sp"></span></p>
+                    </div>
+                    <div class="pages">
+                        <p>< 1/3 ></p>
+                    </div>
+                </div>
+                <div class="mv">
+                    <div class="lizongsheng" onmouseover="adddiv(this,'ct')">
+                        <img src="https://imgessl.kugou.com/mvhdpic/400/20190624/20190624190609448516.jpg"/ class="one_img">
+                        <div class="xinxie">
+                            <p>新写的旧歌 (Live版)</p>
+                            <a>李宗盛</a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="bomba" >
+                            <img onmouseover="adddiv(this,'ct')" src="https://imgessl.kugou.com/commendpic/20190624/20190624120741420513.jpg"/ class="tow_img">
+                            <p>Bomba</p>
+                            <a>UNINE</a>
+                        </div>
+                        <div class="yishuang" >
+                            <img onmouseover="adddiv(this,'ct')" src="https://imgessl.kugou.com/commendpic/20190624/20190624112259778187.jpg"/ class="tow_img , yy" >
+                            <p>一双翅膀 (《请赐我一双翅膀》电视剧片尾曲)</p>
+                            <a>鞠婧祎</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="http://adsfile.bssdlbig.kugou.com/5c12de72ba68a5ac0c2abefa911d8b54.jpg"/ class="nvshen">
+        <div class="door">
+            <div class="doortop">
+                <div class="doorl">
+                    <a><span>热门</span>电台</a>
+                    <b>更多</b>
+                </div>
+                <div class="doorr">
+                    <a><span>热门</span>歌手</a>
+                    <b>更多</b>
+                    <div class="kangcui">
+                        <a onmouseover="unput(0,this)" style="color: #009af3;">华语</a>
+                        <a onmouseover="unput(1,this)">欧美</a>
+                        <a onmouseover="unput(2,this)">日韩</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="hotdor">
+                    <div class="hotdor1">
+                        <img onmouseover="adddiv(this,'ctr')" src="https://staticssl.kugou.com/public/root/images/radio_1.jpg"/>
+                        <p>KTV必点曲</p>
+                    </div>
+                    <div class="hotdor1">
+                        <img onmouseover="adddiv(this,'ctr')" src="https://staticssl.kugou.com/public/root//images/radio_2.jpg"/>
+                        <p>中文DJ</p>
+                    </div>
+                    <div class="hotdor1">
+                        <img onmouseover="adddiv(this,'ctr')" src="https://staticssl.kugou.com/public/root//images/radio_3.jpg"/>
+                        <p>酷狗热歌</p>
+                    </div>
+                    <div class="hotdor1">
+                        <img  onmouseover="adddiv(this,'ctr')" src="https://staticssl.kugou.com/public/root//images/radio_4.jpg"/>
+                        <p>网络红歌</p>
+                    </div>
+                    <div class="hotdor1 , hotdoor">
+                        <img onmouseover="adddiv(this,'ctr')" src="https://staticssl.kugou.com/public/root//images/radio_5.jpg"/>
+                        <p>经典</p>
+                    </div>
+                
+                
+                    <div class="hotdor2">
+                        <img onmouseover="adddiv(this,'ctr')" src="https://staticssl.kugou.com/public/root//images/radio_6.jpg"/>
+                        <p>老情歌</p>
+                    </div>
+                    <div class="hotdor2">
+                        <img onmouseover="adddiv(this,'ctr')" src="https://staticssl.kugou.com/public/root//images/radio_7.jpg"/>
+                        <p>新歌</p>
+                    </div>
+                    <div class="hotdor2">
+                        <img onmouseover="adddiv(this,'ctr')" src="https://staticssl.kugou.com/public/root//images/radio_8.jpg"/>
+                        <p>动漫</p>
+                    </div>
+                    <div class="hotdor2">
+                        <img onmouseover="adddiv(this,'ctr')" src="https://staticssl.kugou.com/public/root//images/radio_9.jpg"/>
+                        <p>轻音乐</p>
+                    </div>
+                    <div class="hotdor2 , hotdoor">
+                        <img onmouseover="adddiv(this,'ctr')" src="https://staticssl.kugou.com/public/root//images/radio_10.jpg"/>
+                        <p>最爱成名曲</p>
+                    </div>
+                </div>
+            </div>
+            <div class="chinaSinger secondUl clearFix">
+                <div class="gem">
+                  
+                        <div class="dzq" onmouseover="adddiv(this)" >
+                            <img src="https://imgessl.kugou.com/uploadpic/softhead/240/20181122/20181122091128804.jpg"class="jj"/>
+                            <p>G.E.M.邓紫棋</p>
+                        </div>
+                        <div class="dzq" onmouseover="adddiv(this)">
+                            <img src="https://imgessl.kugou.com/uploadpic/softhead/240/20180515/20180515002522714.jpg"class="jj"/>
+                            <p>周杰伦</p>
+                        </div>
+
+                   
+                        <div class="zq" onmouseover="adddiv(this)">
+                            <img src="https://imgessl.kugou.com/uploadpic/softhead/240/20190103/20190103191232626.jpg" class="zz"/>
+                            <p>薛之谦</p>
+                        </div>
+                        <div class="zq" onmouseover="adddiv(this)">
+                            <img src="https://imgessl.kugou.com/uploadpic/softhead/240/20180906/20180906181115284.jpg"class="zz"/>
+                            <p>许嵩</p>
+                        </div>
+                        <div class="zq" onmouseover="adddiv(this)">
+                            <img src="https://imgessl.kugou.com/uploadpic/softhead/240/20161209/20161209164303152140.jpg"class="zz"/>
+                            <p>林俊杰 </p>
+                        </div>
+                    
+                       
+                </div>
+                <div class="diandiandian">
+                    <a class="blue" onmouseover="out(0,this)"></a>
+                    <a class="blue" onmouseover="out(1,this)"></a>
+                    <a class="blue" onmouseover="out(2,this)"></a>
+                </div>
+            </div>
+        </div>
+        <img src="http://adsfile.bssdlbig.kugou.com/4dbf23659748a2c592fe6fac4cf2aff6.jpg"/>
+        <div>
+            <div class="Partner">
+                <a><span>合作</span>伙伴</a>
+            </div>
+            <div class="cooperation">
+                <img src="https://staticssl.kugou.com/public/root//images/logo/partner01.jpg"/>
+                <img src="https://staticssl.kugou.com/public/root//images/logo/partner02.jpg"/>
+                <img src="https://staticssl.kugou.com/public/root//images/logo/partner03.jpg"/>
+                <img src="https://staticssl.kugou.com/public/root//images/logo/partner04.jpg"/>
+                <img src="https://staticssl.kugou.com/public/root//images/logo/partner05.jpg"/>
+                <img src="https://staticssl.kugou.com/public/root//images/logo/partner06.jpg"/>
+                <img src="https://staticssl.kugou.com/public/root//images/logo/partner07.jpg"/>
+                <img src="https://staticssl.kugou.com/public/root//images/logo/partner08.jpg"/>
+                <img src="https://staticssl.kugou.com/public/root//images/logo/partner09.jpg"/>
+                <img src="https://staticssl.kugou.com/public/root//images/logo/partner10.jpg"/>
+                <img src="https://staticssl.kugou.com/public/root//images/logo/partner11.jpg"/>
+                <img src="https://staticssl.kugou.com/public/root//images/logo/partner12.jpg"/>
+                <img src="https://staticssl.kugou.com/public/root//images/logo/partner13.jpg"/>
+                <img src="https://staticssl.kugou.com/public/root//images/logo/partner14.jpg"/>
+                <img src="https://staticssl.kugou.com/public/root//images/logo/partner15.jpg"/>
+                <img src="https://staticssl.kugou.com/public/root//images/logo/partner16.jpg"/>
+                <img src="https://staticssl.kugou.com/public/root//images/logo/partner17.jpg"/>
+                <img src="https://staticssl.kugou.com/public/root//images/logo/partner18.jpg"/>
+                <img src="https://staticssl.kugou.com/public/root//images/logo/partner19.jpg"/>
+                <img src="https://staticssl.kugou.com/public/root//images/logo/partner20.jpg"/>
+                <img src="https://staticssl.kugou.com/public/root//images/logo/partner21.jpg"/>
+            </div>
+        </div>
+        <div>
+            <div class="Partner">
+                <a><span>友情</span>链接</a>
+                <b>更多</b>
+            </div>
+            <div class="link">
+                <a>爱美网</a>
+                <a>汽车论坛</a>
+                <a>IT之家</a>
+                <a>iPhone游戏</a>
+                <a>旅游攻略</a>
+                <a>悦声无限</a>
+                <a>华为商城</a>
+                <a>365音乐网</a>
+                <a>软件下载</a>
+                <a>漫漫看漫画</a>
+                <a>手机游戏</a>
+                <a>5sing原创音乐</a>
+                <a>腾讯音乐人</a>
+                <a>豌豆荚</a>
+            </div>
+        </div>
+    </div>
+    <div class="end">
+        <div class="kugou">
+            <a>关于酷狗</a>
+            <a>监督举报</a>
+            <a>广告服务</a>
+            <a>版权指引</a>
+            <a>隐私权策</a>
+            <a>用户服务协议</a>
+            <a>推广合作</a>
+            <a>酷狗音乐人</a>
+            <a>酷狗音乐推</a>
+            <a>招聘信息</a>
+            <a>客服中心</a>
+            <a class="jihua"> 用户体验提升计划</a>
+        </div>
+        <div class="bor"></div>
+        <p>我们致力于推动网络正版音乐发展，相关版权合作请联系copyrights@kugou.com</p>
+        <p>信息网络传播视听节目许可证 1910564 增值电信业务经营许可证粤B2-20060339 &nbsp;&nbsp;&nbsp;<a class="beian">粤ICP备09017694号-2</a> <img src="https://www.kugou.com/common/images/footer_icon.png" class="cur"/></p>
+        <p>广播电视节目制作经营许可证（粤）字第01270号&nbsp;&nbsp;&nbsp;营业性演出许可证穗天演440106026</p>
+        <p>穗公网监备案证第44010650010167    互联网药品信息服务资格证编号（粤）-非经营性-2012-0018 <a class="beian">粤公网安备 44010602000141号</a><img src="http://www.kugou.com/common/images/icon_yuewangga1.png" class="cur"/></p>
+        <p>不良信息举报邮箱：jubao_music@kugou.net    客服邮箱：kefu@kugou.net</p>
+        <p>Copyright  ©  2004-2019 KuGou-Inc.All Rights Reserved <img src="https://www.kugou.com/common/images/logo_down.png" class="cur"/>
+        </p>
+    </div>
+    <div class="scrollTop" onclick="backatop()" id="fixed">
+        
+    </div>
+</body>
+</html>

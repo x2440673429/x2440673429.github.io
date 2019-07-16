@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>酷狗飙升榜_排行榜_乐库频道_酷狗网</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/top.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/list.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bom.css'>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <script src='js/list.js'></script>
+    <script src='js/top.js'></script>
+    
+</head>
+<body>
+    <div class="top">
+        <img src="https://staticssl.kugou.com/public/root/images/logo.png" class="logo"/> 
+        <div class="sousuo_box">
+            <input type="text" placeholder="叶洛洛、妖蝠 我就喜欢宅在家"  onblur="dianji('none')" onfocus="dianji('block')" value="" id="lishi" >
+            <div class="sousuo" onclick='cunchu()' ></div>
+            <div class="History_box"  id="tanchu" >
+                <div class="History" id='fjid' >
+                 
+                </div>
+                <div class="delHistory" onclick="qingkong()" >
+                    <p onclick='empry()'>清空历史记录</p>
+                </div>
+            </div>
+        </div>
+        <div class="fuwu">
+                <a href="http://www.kugou.com/shop/help/serviceCenter">客服中心</a>
+                <a href="http://www.kugou.com/hr/html/index.html">招贤纳士</a>
+                <a href="http://vip.kugou.com/">会员中心</a>
+        </div>
+        <button type="button" value="">登录</button>
+    </div>
+
+     <!-- 导航部分 -->
+     <div class="Naviga">
+            <div class="home">
+                <a class="add" href="index.html">首页</a>
+                <a  class="add act">榜单</a>
+                <a class="add" href="download.html">下载客户端</a>
+                <div class="up ">
+                <a class="add">更多 V</a>
+                    <div class="inhome">
+                            <a href="diantai.html">电台</a>
+                            <a href="mv.html">MV</a>
+                            <a href="song.html">歌单V</a>
+                            <a href="man.html">歌手</a>
+                    </div>
+                </div>
+                <div class="nov">
+                        <a class="nov_1" href="http://fanxing.kugou.com/?action=spreadIndex&id=3">音乐直播</a>
+                        <a class="nov_2" href="http://live.kugou.com/">酷狗LIVE</a>
+                        <a class="nov_3"href="Musician.html" >音乐人</a>
+                        <a class="nov_4"href="Become.html">成为主播</a>
+                        <a class="nov_5"href='http://www.kugou.com/shop/product/kugouproduct/index.html'>商城</a>
+                </div>
+            </div>
+        </div>
+    <div class="kugou">
+        <div class="ccr">
+            <div class="Popular">
+                <div class="dan">
+                    <p>热门榜单
+                            <div class="xiangxia"></div>
+                    </p>
+                </div>
+               
+                <ul class="shou">
+                <li class="liact"><img src="https://imgessl.kugou.com/temppic/20130807/20130807185439172736.png"/><a class="curr ">酷狗飙升榜</a></li> 
+                <li> <img src="https://imgessl.kugou.com/temppic/20130807/20130807185450567609.png"/><a class="curr1">酷狗TOP500</a></li>
+                <li><img src="https://pcweb.kugou.com/k8/static/images/wlhg.png"/> <a>网络红歌榜</a></li>
+                <li><img src="https://imgessl.kugou.com/stdmusic/20160119/20160119110054378246.jpg"/><a>DJ热歌榜</a></li>
+                    <li><img src="https://imgessl.kugou.com/stdmusic/20171120/20171120102326715438.jpg"/><a>华语新歌榜</a></li>
+                    <li><img src="https://imgessl.kugou.com/stdmusic/20171120/20171120102536373818.jpg"/><a>欧美新歌榜</a></li>
+                    <li><img src="https://imgessl.kugou.com/stdmusic/20171120/20171120102907761563.jpg"/><a>韩国新歌榜</a></li>
+                    <li><img src="https://imgessl.kugou.com/stdmusic/20171120/20171120103030215744.jpg"/><a>日本新歌榜</a></li>
+                    <li><img src="https://imgessl.kugou.com/stdmusic/20190611/20190611101848804539.jpg"/><a>腾讯音乐人原创榜</a></li>
+                    <li><img src="https://imgessl.kugou.com/stdmusic/20171120/20171120103438764503.jpg"/><a>粤语新歌榜</a></li>
+                    <li><img src="https://imgessl.kugou.com/temppic/20131025/20131025103853305845.png"/><a>酷狗分享榜</a></li>
+                    <li><img src="https://imgessl.kugou.com/stdmusic/20160504/20160504171514518791.png"/><a>5sing音乐榜</a></li>
+                    <li><img src="https://imgessl.kugou.com/temppic/20140109/20140109170934390969.png"/><a>繁星音乐榜</a></li>
+                </ul>
+             
+            </div>
+            <div class="characteristic">
+                <div class="dan">
+                    <p>特色音乐榜
+                        <div class="xiangxia"></div>
+                    </p>
+                </div>
+                <ul class="shou">
+                <li><img src="https://imgessl.kugou.com/stdmusic/20180712/20180712154305100613.jpg"/><a>电音热歌榜</a></li> 
+                <li> <img src="https://imgessl.kugou.com/stdmusic/20180621/20180621155507253271.jpg"/><a>影视金曲榜</a></li>
+                <li><img src="https://imgessl.kugou.com/stdmusic/20180712/20180712154428939457.jpg"/> <a>ACG热歌榜</a></li>
+                <li><img src="https://imgessl.kugou.com/stdmusic/20180712/20180712154500997723.jpg"/><a>粤语金曲榜</a></li>
+                    <li><img src="https://imgessl.kugou.com/stdmusic/20180712/20180712154557980729.jpg"/><a>欧美金曲榜</a></li>
+                    <li><img src="https://imgessl.kugou.com/stdmusic/20180712/20180712154323548434.jpg"/><a>古风金曲榜</a></li>
+                    <li><img src="https://imgessl.kugou.com/stdmusic/20190402/20190402180217270286.jpg"/><a>小语种热歌榜</a></li>
+                    <li><img src="https://imgessl.kugou.com/stdmusic/20180627/20180627210943555208.jpg"/><a>纯音乐榜</a></li>
+                </ul>
+            </div>
+            <div class="global">
+                <div class="dan">
+                    <p>全球榜
+                            <div class="xiangxia"></div>
+                    </p>
+                </div>
+               
+                <ul class="shou">
+                <li><img src="https://imgessl.kugou.com/temppic/20130807/20130807192258314669.png"/><a>美国BillBoard榜</a></li> 
+                <li> <img src="https://imgessl.kugou.com/stdmusic/20161013/20161013180833243081.png"/><a>英国单曲榜</a></li>
+                <li><img src="https://imgessl.kugou.com/stdmusic/20151222/20151222142442217161.png"/> <a>日本公信榜</a></li>
+                <li><img src="https://imgessl.kugou.com/temppic/20130807/20130807193303334739.png"/><a>韩国M-net音乐榜</a></li>
+                    <li><img src="https://imgessl.kugou.com/temppic/20140827/20140827151250799981.png"/><a>中国TOP排行榜</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="Soar">
+            <div class="Soar_top">
+                <a>酷狗飙升榜</a>
+                <a class="date">2019-06-28 更新</a>
+                <button>
+                    <span></span>
+                    <b>播放全部</b>
+                </button>
+            </div>
+            <div class="all">
+                <div class="mark" id="Check"></div> 
+                <a>全选</a>
+            </div>
+            <div class="election">
+                <div class="big">
+                    <div class="mark"></div> 
+                    <b>1</b>
+                    <span>莎妞妞 - 下雨的时候我想你</span>
+                    <em>5:12</em>
+                    <div class="new"></div>
+                    <div class="play"></div>
+                    <div class="down"></div>
+                    <div class="share"></div>
+                </div> 
+                <div class="big">
+                    <div class="mark"></div> 
+                    <b>2</b>
+                    <span>丸子呦 - 广寒宫</span>
+                    <em>3:32</em>
+                    <div class="new"></div>
+                    <div class="play"></div>
+                    <div class="down"></div>
+                    <div class="share"></div>
+                </div> 
+                <div class="big">
+                    <div class="mark"></div> 
+                    <b>3</b>
+                    <span>Billie Eilish - bad guy</span>
+                    <em>3:14</em>
+                    <div class="new"></div>
+                    <div class="play"></div>
+                    <div class="down"></div>
+                    <div class="share"></div>
+                </div> 
+                <div class="big">
+                    <div class="mark"></div> 
+                    <a>4</a>
+                    <span>龙奔 - 想你的时候问月亮</span>
+                    <em>3:59</em>
+                    <div class="new"></div>
+                    <div class="play"></div>
+                    <div class="down"></div>
+                    <div class="share"></div>
+                </div> 
+                <div class="big">
+                    <div class="mark"></div> 
+                    <a>5</a>
+                    <span>洛天依 - 夏之光</span>
+                    <em>3:38</em>
+                    <div class="new"></div>
+                    <div class="play"></div>
+                    <div class="down"></div>
+                    <div class="share"></div>
+                </div> 
+                <div class="big">
+                    <div class="mark"></div> 
+                    <a>6</a>
+                    <span>Chris Brown、Justin Bieber、Ink - Don't Check On Me</span>
+                    <em>3:24</em>
+                    <div class="new"></div>
+                    <div class="play"></div>
+                    <div class="down"></div>
+                    <div class="share"></div>
+                </div> 
+                <div class="big">
+                    <div class="mark"></div> 
+                    <a>7</a>
+                    <span>许嵩 - 你若成风</span>
+                    <em>2:52</em>
+                    <div class="new"></div>
+                    <div class="play"></div>
+                    <div class="down"></div>
+                    <div class="share"></div>
+                </div> 
+                <div class="big">
+                    <div class="mark"></div> 
+                    <a>8</a>
+                    <span>许嵩、黄龄 - 惊鸿一面</span>
+                    <em>4:16</em>
+                    <div class="new"></div>
+                    <div class="play"></div>
+                    <div class="down"></div>
+                    <div class="share"></div>
+                </div> 
+                <div class="big">
+                    <div class="mark"></div> 
+                    <a>9</a>
+                    <span>白嘉峻 - 夜阑情歌</span>
+                    <em>3:24</em>
+                    <div class="new"></div>
+                    <div class="play"></div>
+                    <div class="down"></div>
+                    <div class="share"></div>
+                </div> 
+                <div class="big">
+                    <div class="mark"></div> 
+                    <a>10</a>
+                    <span>卜冠今、SNH48李艺彤、卢洋洋、洪潇 - 恋爱辞典</span>
+                    <em>2:52</em>
+                    <div class="new"></div>
+                    <div class="play"></div>
+                    <div class="down"></div>
+                    <div class="share"></div>
+                </div> 
+                <div class="big">
+                    <div class="mark"></div> 
+                    <a>11</a>
+                    <span>卜冠今 - 想飞</span>
+                    <em>4:16</em>
+                    <div class="new"></div>
+                    <div class="play"></div>
+                    <div class="down"></div>
+                    <div class="share"></div>
+                </div> 
+                <div class="big">
+                    <div class="mark"></div> 
+                    <a>12</a>
+                    <span>一棵小葱、张晓涵(2) - 壁上观</span>
+                    <em>3:24</em>
+                    <div class="new"></div>
+                    <div class="play"></div>
+                    <div class="down"></div>
+                    <div class="share"></div>
+                </div> 
+                <div class="big">
+                    <div class="mark"></div> 
+                    <a>13</a>
+                    <span>交通国 - 叶问宗师</span>
+                    <em>2:57</em>
+                    <div class="new"></div>
+                    <div class="play"></div>
+                    <div class="down"></div>
+                    <div class="share"></div>
+                </div> 
+                <div class="big">
+                    <div class="mark"></div> 
+                    <a>14</a>
+                    <span>木村弓 - いつも何度でも</span>
+                    <em>5:12</em>
+                    <div class="new"></div>
+                    <div class="play"></div>
+                    <div class="down"></div>
+                    <div class="share"></div>
+                </div> 
+                <div class="big">
+                    <div class="mark"></div> 
+                    <a>15</a>
+                    <span>许嵩 - 天龙八部之宿敌</span>
+                    <em>5:12</em>
+                    <div class="new"></div>
+                    <div class="play"></div>
+                    <div class="down"></div>
+                    <div class="share"></div>
+                </div> 
+                <div class="big">
+                    <div class="mark"></div> 
+                    <a>16</a>
+                    <span>张碧晨 - Read All About It (Live)</span>
+                    <em>5:12</em>
+                    <div class="new"></div>
+                    <div class="play"></div>
+                    <div class="down"></div>
+                    <div class="share"></div>
+                </div> 
+                <div class="big">
+                    <div class="mark"></div> 
+                    <a>17</a>
+                    <span>范世錡、黄圣池、朱元冰、李汶翰、李希侃 - 追光的你</span>
+                    <em>5:12</em>
+                    <div class="new"></div>
+                    <div class="play"></div>
+                    <div class="down"></div>
+                    <div class="share"></div>
+                </div> 
+                <div class="big">
+                    <div class="mark"></div> 
+                    <a>18</a>
+                    <span>洛天依 - 孙尚香</span>
+                    <em>5:12</em>
+                    <div class="new"></div>
+                    <div class="play"></div>
+                    <div class="down"></div>
+                    <div class="share"></div>
+                </div> 
+                <div class="big">
+                    <div class="mark"></div> 
+                    <a>19</a>
+                    <span>陈辉权、林伟栋 - 叶问宗师</span>
+                    <em>5:12</em>
+                    <div class="new"></div>
+                    <div class="play"></div>
+                    <div class="down"></div>
+                    <div class="share"></div>
+                </div> 
+                <div class="big">
+                    <div class="mark"></div> 
+                    <a>20</a>
+                    <span>方艺谚 - 我们</span>
+                    <em>5:12</em>
+                    <div class="new"></div>
+                    <div class="play"></div>
+                    <div class="down"></div>
+                    <div class="share"></div>
+                </div> 
+                <div class="big">
+                    <div class="mark"></div> 
+                    <a>21</a>
+                    <span>方大同 - 白发</span>
+                    <em>5:12</em>
+                    <div class="new"></div>
+                    <div class="play"></div>
+                    <div class="down"></div>
+                    <div class="share"></div>
+                </div> 
+                <div class="big">
+                    <div class="mark"></div> 
+                    <a>22</a>
+                    <span>洛天依 - 冬之雪</span>
+                    <em>5:12</em>
+                    <div class="new"></div>
+                    <div class="play"></div>
+                    <div class="down"></div>
+                    <div class="share"></div>
+                </div> 
+               
+            </div>
+            <div class="download">
+                    <a>查看更多内容，请下载客户端</a>
+                    <button>立即下载</button>
+            </div>
+        </div>
+    </div>
+    <div class="end">
+        <div class="kugou1">
+            <a>关于酷狗</a>
+            <a>监督举报</a>
+            <a>广告服务</a>
+            <a>版权指引</a>
+            <a>用户服务协议</a>
+            <a>推广合作</a>
+            <a>酷狗音乐人</a>
+            <a>酷狗音乐推</a>
+            <a>招聘信息</a>
+            <a>客服中心</a>
+            <a class="jihua"> 用户体验提升计划</a>
+        </div>
+        <div class="bor"></div>
+        <p>我们致力于推动网络正版音乐发展，相关版权合作请联系copyrights@kugou.com</p>
+        <p>信息网络传播视听节目许可证 1910564 增值电信业务经营许可证粤B2-20060339 &nbsp;&nbsp;&nbsp;<a class="beian">粤ICP备09017694号-2</a> <img src="https://www.kugou.com/common/images/footer_icon.png" class="cur"/></p>
+        <p>广播电视节目制作经营许可证（粤）字第01270号&nbsp;&nbsp;&nbsp;营业性演出许可证穗天演440106026</p>
+        <p>穗公网监备案证第44010650010167    互联网药品信息服务资格证编号（粤）-非经营性-2012-0018 <a class="beian">粤公网安备 44010602000141号</a><img src="http://www.kugou.com/common/images/icon_yuewangga1.png" class="cur"/></p>
+        <p>不良信息举报邮箱：jubao_music@kugou.net    客服邮箱：kefu@kugou.net</p>
+        <p>Copyright  ©  2004-2019 KuGou-Inc.All Rights Reserved <img src="https://www.kugou.com/common/images/logo_down.png" class="cur"/>
+        </p>
+    </div>
+</body>
+</html>

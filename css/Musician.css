@@ -1,0 +1,143 @@
+.levelContainer{
+    width: 960px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 12px;
+}
+.levelContainer .top_img img{
+    width: 700px;
+    height: 292px;
+    cursor: pointer;
+}
+.levelContainer .right{
+    width: 250px;
+    float: right;
+    background: url(http://www.kugou.com/imusic/static/images/kgmusic/loginstate.png) no-repeat;
+    background-position: -6px -5px;
+    height: 292px;
+    
+}
+.levelContainer .right p{
+    width: 180px;
+    height: 43px;
+    cursor: pointer;
+    margin: 191px auto 0;
+
+}
+.levelContainer .understand{
+    width: 960px;
+    border-top: 2px solid #e5e5e5;
+    margin-top: 40px;
+}
+.levelContainer .understand p:first-child{
+    border-left: 6px solid #48beee;
+    padding-left: 15px;
+    font-size: 24px;
+    color: #333;
+    margin: 40px 0;
+}
+.levelContainer .understand .what{
+    font-size: 16px;
+    color: #666;
+    margin: 35px 0 10px;
+
+}
+.levelContainer .understand .how{
+    font-size: 13px;
+}
+.levelContainer .understand .zhuce{
+    height: 76px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.levelContainer .understand .zhuce div{
+    width: 220px;
+    height: 76px;
+    margin-right:18px;
+    float: left; 
+}
+.levelContainer .understand .zhuce .register{
+    background: url(http://www.kugou.com/imusic/static/images/kgmusic/icon_bg.png)no-repeat;
+    background-position: -1px -299px;
+}
+.levelContainer .understand .zhuce .Submission{
+    background: url(http://www.kugou.com/imusic/static/images/kgmusic/icon_bg.png)no-repeat;
+    background-position: -235px -299px;
+}
+.levelContainer .understand .zhuce .examine{
+    background: url(http://www.kugou.com/imusic/static/images/kgmusic/icon_bg.png)no-repeat;
+    background-position: -1px -379px;
+}
+.levelContainer .understand .zhuce .Release{
+    background: url(http://www.kugou.com/imusic/static/images/kgmusic/icon_bg.png)no-repeat;
+    background-position: -235px -379px;
+}
+.levelContainer .understand  .ceremony{
+    width: 280px;
+    text-align: center;
+    float: left;
+    padding: 0 20px 60px;
+}
+.levelContainer .understand  .ceremony .xx1{
+    background: url(http://www.kugou.com/imusic/static/images/kgmusic/icon_bg.png)no-repeat;
+    background-position: -1px -84px;
+    width: 100px;
+    height: 105px;
+    margin: 0 auto 15px;
+}
+.levelContainer .understand  .ceremony .xx2{
+    background: url(http://www.kugou.com/imusic/static/images/kgmusic/icon_bg.png)no-repeat;
+    background-position: -106px -84px;
+    width: 100px;
+    height: 105px;
+    margin: 0 auto 15px;
+}
+.levelContainer .understand  .ceremony .xx3{
+    background: url(http://www.kugou.com/imusic/static/images/kgmusic/icon_bg.png)no-repeat;
+    background-position: -210px -84px;
+    width: 100px;
+    height: 105px;
+    margin: 0 auto 15px;
+}
+.levelContainer .understand  .ceremony .xx4{
+    background: url(http://www.kugou.com/imusic/static/images/kgmusic/icon_bg.png)no-repeat;
+    background-position: -1px -189px;
+    width: 100px;
+    height: 105px;
+    margin: 0 auto 15px;
+}
+.levelContainer .understand  .ceremony .xx5{
+    background: url(http://www.kugou.com/imusic/static/images/kgmusic/icon_bg.png)no-repeat;
+    background-position: -110px -189px;
+    width: 100px;
+    height: 105px;
+    margin: 0 auto 15px;
+}
+.levelContainer .understand  .ceremony .xx6{
+    background: url(http://www.kugou.com/imusic/static/images/kgmusic/icon_bg.png)no-repeat;
+    background-position: -214px -189px;
+    width: 100px;
+    height: 105px;
+    margin: 0 auto 15px;
+}
+.levelContainer .understand  .ceremony p{
+    color: #888;
+    font-size: 13px;
+}
+.levelContainer .understand  .ceremony .wan{
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+}
+.levelContainer .understand  .ceremony p a{
+    background: url(http://www.kugou.com/imusic/static/images/kgmusic/icon_question_hover.jpg) no-repeat left center;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+
+.levelContainer .understand  .ceremony p a:hover{
+    background: url(http://www.kugou.com/imusic/static/images/kgmusic/icon_question_hover.jpg) no-repeat left center;
+    
+}

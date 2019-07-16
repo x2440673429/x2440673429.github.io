@@ -1,0 +1,127 @@
+$(document).ready(function(){
+    var asd=[
+        {
+            img:'http://imge.kugou.com/fmlogo/32/20130128102453881885.jpg',
+            name:'KTV必点曲',
+            ming:'古巨基-情歌王',
+        },
+        {
+            img:'http://imge.kugou.com/fmlogo/32/20130128102453881885.jpg',
+            name:'KTV必点曲',
+            ming:'古巨基-情歌王',
+        },
+        {
+            img:'http://imge.kugou.com/fmlogo/32/20130128102453881885.jpg',
+            name:'KTV必点曲',
+            ming:'古巨基-情歌王',
+        },
+        {
+            img:'http://imge.kugou.com/fmlogo/32/20130128102453881885.jpg',
+            name:'KTV必点曲',
+            ming:'古巨基-情歌王',
+        },
+        {
+            img:'http://imge.kugou.com/fmlogo/32/20130128102453881885.jpg',
+            name:'KTV必点曲',
+            ming:'古巨基-情歌王',
+        },
+        {
+            img:'http://imge.kugou.com/fmlogo/32/20130128102453881885.jpg',
+            name:'KTV必点曲',
+            ming:'古巨基-情歌王',
+        },
+        {
+            img:'http://imge.kugou.com/fmlogo/32/20130128102453881885.jpg',
+            name:'KTV必点曲',
+            ming:'古巨基-情歌王',
+        },
+        {
+            img:'http://imge.kugou.com/fmlogo/32/20130128102453881885.jpg',
+            name:'KTV必点曲',
+            ming:'古巨基-情歌王',
+        },
+        {
+            img:'http://imge.kugou.com/fmlogo/32/20130128102453881885.jpg',
+            name:'KTV必点曲',
+            ming:'古巨基-情歌王',
+        },
+        {
+            img:'http://imge.kugou.com/fmlogo/32/20130128102453881885.jpg',
+            name:'KTV必点曲',
+            ming:'古巨基-情歌王',
+        },
+        {
+            img:'http://imge.kugou.com/fmlogo/32/20130128102453881885.jpg',
+            name:'KTV必点曲',
+            ming:'古巨基-情歌王',
+        },
+        {
+            img:'http://imge.kugou.com/fmlogo/32/20130128102453881885.jpg',
+            name:'KTV必点曲',
+            ming:'古巨基-情歌王',
+        },
+        {
+            img:'http://imge.kugou.com/fmlogo/32/20130128102453881885.jpg',
+            name:'KTV必点曲',
+            ming:'古巨基-情歌王',
+        },
+        {
+            img:'http://imge.kugou.com/fmlogo/32/20130128102453881885.jpg',
+            name:'KTV必点曲',
+            ming:'古巨基-情歌王',
+        },
+        {
+            img:'http://imge.kugou.com/fmlogo/32/20130128102453881885.jpg',
+            name:'KTV必点曲',
+            ming:'古巨基-情歌王',
+        },
+        {
+            img:'http://imge.kugou.com/fmlogo/32/20130128102453881885.jpg',
+            name:'KTV必点曲',
+            ming:'古巨基-情歌王',
+        },
+        {
+            img:'http://imge.kugou.com/fmlogo/32/20130128102453881885.jpg',
+            name:'KTV必点曲',
+            ming:'古巨基-情歌王',
+        },
+        {
+            img:'http://imge.kugou.com/fmlogo/32/20130128102453881885.jpg',
+            name:'KTV必点曲',
+            ming:'古巨基-情歌王',
+        },
+        {
+            img:'http://imge.kugou.com/fmlogo/32/20130128102453881885.jpg',
+            name:'KTV必点曲',
+            ming:'古巨基-情歌王',
+        },
+        {
+            img:'http://imge.kugou.com/fmlogo/32/20130128102453881885.jpg',
+            name:'KTV必点曲',
+            ming:'古巨基-情歌王',
+        },
+        {
+            img:'http://imge.kugou.com/fmlogo/32/20130128102453881885.jpg',
+            name:'KTV必点曲',
+            ming:'古巨基-情歌王',
+        },
+    ]
+ asd.map(function(even){
+    $(".radioright").append( `<div class="ktv">
+                                        <div class="ktv_img">
+                                            <img src="`+even.img+`"/>
+                                        </div>
+                                        <div class="name">
+                                            <a title=`+even.name+`>`+even.name+`<span class='name_img'></span></a>
+                                            
+                                            <p>`+even.ming+`</p>
+                                        </div>
+                                    </div>`)
+ })   
+
+ $(".radioleft div").click(function(){
+  $(this).addClass('one').siblings().removeClass('one')
+
+ })
+
+})

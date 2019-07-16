@@ -1,0 +1,116 @@
+.radiowrap{
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    min-height: 600px;
+}
+.radiowrap .topleft{
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    background: #cfcfcf;
+    float: left;
+    width: 210px;
+}
+.radiowrap .topright{
+    float: right;
+    width: 780px;
+    height: 30px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    background: #cfcfcf;
+}
+.radiowrap .radioleft{
+    float: left;
+    width: 210px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #555;
+}
+.radiowrap .radioleft .one{
+    background: url(https://www.kugou.com/fmweb/html/images/bg.png) no-repeat;
+    background-position: 0 -854px;
+    color: #fff;
+}
+.radiowrap .radioleft p{
+    width: 210px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+}
+.radiowrap .radioleft p:hover{
+    background: url(https://www.kugou.com/fmweb/html/images/bg.png) no-repeat;
+    background-position: 0 -854px;
+    color: #fff;
+}
+.radiowrap .radioright{
+    float: right;
+    width: 780px;
+    border-left: 1px solid #e2e2e2;
+    margin-top: 20px;
+}
+.radiowrap .radioright .ktv{
+    width: 185px;
+    height: 42px;
+    margin: 0 0 8px 56px;
+    float: left;
+    cursor: pointer;
+}
+.radiowrap .radioright .ktv .ktv_img{
+    float: left;
+    margin-right: 10px;
+    width: 40px;
+    background: url(https://www.kugou.com/fmweb/html/images/bg.png) no-repeat;
+    background-position: -55px -501px;
+    margin-top: 3px;
+}
+.radiowrap .radioright .ktv .ktv_img img{
+    margin-top: 4px;
+    margin-left: 4px;
+}
+.radiowrap .radioright .ktv .name a{
+    color: #555;
+    font-style: normal;
+    line-height: 1;
+    margin: -4px 0 0 0px;
+    cursor: pointer;
+    font-size: 14px;
+    display: inline-block;
+    height: 19px;
+    position: relative;
+}
+.radiowrap .radioright .ktv .name p{
+    overflow: hidden;
+    color: #999999;
+    margin: 0 3px 0 0px;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+}
+.radiowrap .radioright .ktv .name .name_img{
+    background: url(https://www.kugou.com/fmweb/html/images/bg.png)  no-repeat; 
+    background-position: -8px -302px;
+    width: 18px;
+    height: 19px;
+    display: none; 
+    position: absolute;
+    top: -3px;
+    right: -22px;
+}
+.radiowrap .radioright .ktv:hover .ktv_img{
+      background-position: -5px -501px;
+}
+.radiowrap .radioright .ktv:hover a{
+    color: #009bd8;
+}
+.radiowrap .radioright .ktv:hover .name_img{
+    display: inline-block;
+}

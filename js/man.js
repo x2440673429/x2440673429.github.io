@@ -1,0 +1,221 @@
+$(document).ready(function(){
+    var arr=[
+        {
+            img:"http://singerimg.kugou.com/uploadpic/pass/softhead/100/20181122/20181122091128804.jpg",
+            name:"G.E.M.邓紫棋",
+            first:"1",
+        },
+        {
+            img:"http://singerimg.kugou.com/uploadpic/pass/softhead/100/20181122/20181122091128804.jpg",
+            name:"G.E.M.邓紫棋",
+            first:"1",
+        },
+        {
+            img:"http://singerimg.kugou.com/uploadpic/pass/softhead/100/20181122/20181122091128804.jpg",
+            name:"G.E.M.邓紫棋",
+            first:"1",
+        },
+        {
+            img:"http://singerimg.kugou.com/uploadpic/pass/softhead/100/20181122/20181122091128804.jpg",
+            name:"G.E.M.邓紫棋",
+            first:"1",
+        },
+        {
+            img:"http://singerimg.kugou.com/uploadpic/pass/softhead/100/20181122/20181122091128804.jpg",
+            name:"G.E.M.邓紫棋",
+            first:"1",
+        },
+        {
+            img:"http://singerimg.kugou.com/uploadpic/pass/softhead/100/20181122/20181122091128804.jpg",
+            name:"G.E.M.邓紫棋",
+            first:"1",
+        },
+        {
+            img:"http://singerimg.kugou.com/uploadpic/pass/softhead/100/20181122/20181122091128804.jpg",
+            name:"G.E.M.邓紫棋",
+            first:"1",
+        },
+        {
+            img:"http://singerimg.kugou.com/uploadpic/pass/softhead/100/20181122/20181122091128804.jpg",
+            name:"G.E.M.邓紫棋",
+            first:"1",
+        },
+        {
+            img:"http://singerimg.kugou.com/uploadpic/pass/softhead/100/20181122/20181122091128804.jpg",
+            name:"G.E.M.邓紫棋",
+            first:"1",
+        },
+        {
+            img:"http://singerimg.kugou.com/uploadpic/pass/softhead/100/20181122/20181122091128804.jpg",
+            name:"G.E.M.邓紫棋",
+            first:"1",
+        },
+        {
+            img:"http://singerimg.kugou.com/uploadpic/pass/softhead/100/20181122/20181122091128804.jpg",
+            name:"G.E.M.邓紫棋",
+            first:"1",
+        },
+        {
+            img:"http://singerimg.kugou.com/uploadpic/pass/softhead/100/20181122/20181122091128804.jpg",
+            name:"G.E.M.邓紫棋",
+            first:"1",
+        },
+        {
+            img:"http://singerimg.kugou.com/uploadpic/pass/softhead/100/20181122/20181122091128804.jpg",
+            name:"G.E.M.邓紫棋",
+            first:"1",
+        },
+        {
+            img:"http://singerimg.kugou.com/uploadpic/pass/softhead/100/20181122/20181122091128804.jpg",
+            name:"G.E.M.邓紫棋",
+            first:"1",
+        },
+        {
+            img:"http://singerimg.kugou.com/uploadpic/pass/softhead/100/20181122/20181122091128804.jpg",
+            name:"G.E.M.邓紫棋",
+            first:"1",
+        },
+        {
+            img:"http://singerimg.kugou.com/uploadpic/pass/softhead/100/20181122/20181122091128804.jpg",
+            name:"G.E.M.邓紫棋",
+            first:"1",
+        },
+        {
+            img:"http://singerimg.kugou.com/uploadpic/pass/softhead/100/20181122/20181122091128804.jpg",
+            name:"G.E.M.邓紫棋",
+            first:"1",
+        },
+        {
+            img:"http://singerimg.kugou.com/uploadpic/pass/softhead/100/20181122/20181122091128804.jpg",
+            name:"G.E.M.邓紫棋",
+            first:"1",
+        },
+    ]
+    arr.map(function(even){
+    $('.fist').append(`<div class="fist_dzq">
+                        <div class="fist_img" title=`+even.name+`>
+                            <img src="`+even.img+`"/>
+                            <i>`+even.first+`<b>st</b></i>
+                        </div>
+                        <a class="gem" title=`+even.name+`>`+even.name+`</a>
+                    </div>`)
+
+                })
+
+       var crr=[
+           {
+               ner:'19',
+               name:'刀郎',
+              ner1:'22',
+              name1:'李荣浩',
+              ner2:'23',
+              name2:'王力宏',
+              ner3:'24',
+              name3:'张艺兴',
+           },
+           {
+            ner:'19',
+            name:'刀郎',
+           ner1:'22',
+           name1:'李荣浩',
+           ner2:'23',
+           name2:'王力宏',
+           ner3:'24',
+           name3:'张艺兴',
+        },
+        {
+            ner:'19',
+               name:'刀郎',
+              ner1:'22',
+              name1:'李荣浩',
+              ner2:'23',
+              name2:'王力宏',
+              ner3:'24',
+              name3:'张艺兴',
+           
+        },
+        {
+            ner:'19',
+            name:'刀郎',
+           ner1:'22',
+           name1:'李荣浩',
+           ner2:'23',
+           name2:'王力宏',
+           ner3:'24',
+           name3:'张艺兴',
+        },
+        {
+            ner:'19',
+            name:'刀郎',
+           ner1:'22',
+           name1:'李荣浩',
+           ner2:'23',
+           name2:'王力宏',
+           ner3:'24',
+           name3:'张艺兴',
+        },
+        {
+            ner:'19',
+               name:'刀郎',
+              ner1:'22',
+              name1:'李荣浩',
+              ner2:'23',
+              name2:'王力宏',
+              ner3:'24',
+              name3:'张艺兴',
+        },
+        {
+            ner:'19',
+            name:'刀郎',
+           ner1:'22',
+           name1:'李荣浩',
+           ner2:'23',
+           name2:'王力宏',
+           ner3:'24',
+           name3:'张艺兴',
+        },
+        {
+            ner:'19',
+            name:'刀郎',
+           ner1:'22',
+           name1:'李荣浩',
+           ner2:'23',
+           name2:'王力宏',
+           ner3:'24',
+           name3:'张艺兴',
+        },
+       
+       ]         
+       crr.map(function(key){
+           console.log(111)
+        $('.list').append(`<div class="list1">
+                            <div class="listone">
+                                <span>`+key.ner+`</span>
+                                <b></b>
+                                <a title=`+key.name+`>`+key.name+`</a>
+                            </div>
+                            <div class="listtow listone">
+                                <span>`+key.ner1+`</span>
+                                <b></b>
+                                <a title=`+key.name1+`>`+key.name1+`</a>
+                            </div>
+                            <div class="listone">
+                                <span>`+key.ner2+`</span>
+                                <b></b>
+                                <a title=`+key.name2+`>`+key.name2+`</a>
+                            </div>
+                            <div class="listtow listone">
+                                <span>`+key.ner3+`</span>
+                                <b></b>
+                                <a title=`+key.name3+`>`+key.name3+`</a>
+                            </div>
+                        </div>`)
+                        console.log(222)
+       })
+       $('.singerright .singertop a').click(function(){
+           $(this).addClass('door').siblings().removeClass('door')
+       })
+       $('.singerleft  a').click(function(){
+           $(this).addClass('black').siblings().removeClass('black')
+       })
+})

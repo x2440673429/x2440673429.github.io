@@ -1,0 +1,192 @@
+.singer{
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.singer .singerleft{
+    width: 210px;
+    float: left;
+}
+.singer .singerleft .singerboth .huayu{
+    
+    margin-bottom: 42px;
+}
+.singer .singerleft .singerboth .qita{
+    margin-bottom: 25px;
+}
+.singer .singerleft .singerboth a{
+    display: inline-block;
+    color: #555;
+    height: 30px;
+    line-height: 30px;
+    width: 142px;
+    font-size: 14px;
+    padding: 0 0 0 68px;
+    cursor: pointer;
+}
+.singer .singerleft .singerboth .black{
+    background: #85d2f2;
+    color: #fff;
+}
+.singer .singerleft .singerboth a:hover{
+    background: #85d2f2;
+    color: #fff;
+}
+.singer .singerright{
+    width: 770px;
+    float: right;
+    border-left: 1px solid #e5e5e5;
+    padding-left: 10px;
+}
+.singer .singertop{
+    width: 770px;
+    height: 35px;
+    border-bottom: 1px solid #d4d4d4;
+    margin-bottom: 10px;
+}
+.singer .singerright  .singertop a{
+    display: inline-block;
+    padding: 0 7px;
+    height: 24px;
+    color: #333;
+    font-size: 15px;
+    font-family: '微软雅黑';
+    line-height: 24px;
+    float: left;
+    margin-right: 1px;
+    cursor: pointer;
+}
+.singer .singerright .singertop .door{
+    background: #85d2f2;
+    color: #fff;
+}
+.singer .singerright .singertop a:hover{
+    background: #85d2f2;
+    color: #fff;
+}
+.singer .singerright .fist{
+    width: 790px;
+    margin-bottom: 20px;
+}
+.singer .singerright .fist .fist_dzq{
+    width: 71px;
+    margin: 0 15px 17px 0;
+    float: left;
+    
+}
+.singer .singerright .fist .fist_dzq .fist_img{
+    background: url(https://www.kugou.com/yy/static/images/other.png?v=png_8&time=2014_02_27_05_17_36)no-repeat;
+    background-position: -82px -152px;
+    padding: 3px 0 0 4px;
+    width: 80px;
+    position: relative;
+    cursor: pointer;
+}
+
+.singer .singerright .fist .fist_dzq .fist_img img{
+    width: 68px;
+    height: 68px;
+}
+.singer .singerright .fist .fist_dzq .fist_img i{
+    background: -webkit-linear-gradient(left,rgba(0,0,0,.4) 0%,rgba(255,255,255,0) 100%);
+    width: 63px;
+    height: 22px;
+    padding-left: 5px;
+    color: #fff;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 16px;
+    display: inline-block;
+    position: absolute;
+    bottom: 4px;
+    left: 5px;
+}
+.singer .singerright .fist .fist_dzq .fist_img i b{
+    color: #fff;
+    font-style: italic;
+    display: inline-block;
+    font-weight: normal;
+}
+.singer .singerright .fist .fist_dzq .gem{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    width: 70px;
+    height: 20px;
+    padding-left: 2px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.singer .singerright .fist .fist_dzq .fist_img:hover{
+    background-position: -3px -153px;
+}
+.singer .singerright .list{
+    width: 772px;
+    float: right;
+    margin-top: 20px;
+    font-size: 13px;
+}
+.singer .singerright .list .list1{
+    width: 193px;
+   margin-bottom: 20px;
+   float: left;
+  
+}
+.singer .singerright .list .list1 .listone{
+    height: 23px;
+    line-height: 23px;
+    padding-left: 5px;
+    vertical-align: bottom;
+    width: 179px;
+    margin: 0 8px 0 0;
+    background: #e7e7e7;
+   
+}
+.singer .singerright .list .list1 .listtow{
+    background: #fff;
+}
+
+.singer .singerright .list .list1 .listone b{
+    background: url(https://www.kugou.com/yy/static/images/other.png?v=png_8&time=2014_02_27_05_17_36) no-repeat;
+    background-position: -333px -205px;
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    margin: 0 5px;
+}
+.singer .singerright .list .list1 .listone a{
+    cursor:pointer;
+    line-height: 23px;
+    display: inline-block;
+    width: 122px;
+}
+.singer .singerright .list .list1 .listone a:hover{
+    text-decoration: underline;
+}
+.singer .singerright .page{
+    width: 770px;
+    text-align: center;
+    float: right;
+    margin-bottom: 20px;
+}
+.singer .singerright .page a{
+    font-style: italic;
+    padding: 0 5px;
+    border-bottom: 1px solid snow;
+    margin: 0 3px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.singer .singerright  .page .next{
+        font-weight: 700;
+    font-style: italic;
+    border-bottom: 1px solid #c5c5c5;
+    margin: 0 8px;
+}
+.singer .singerright .page .lastpage{
+    font-weight: normal;
+    font-style: normal;
+}

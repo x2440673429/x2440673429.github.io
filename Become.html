@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>有声电台投稿</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/top.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/Become.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bom.css'>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <script src='js/Become.js'></script>
+    <script src='js/top.js'></script>
+</head>
+<body>
+    <div class="allq">
+        <div class="top">
+                <img src="https://staticssl.kugou.com/public/root/images/logo.png" class="logo"/> 
+                <div class="sousuo_box">
+                    <input type="text" placeholder="叶洛洛、妖蝠 我就喜欢宅在家"  onblur="dianji('none')" onfocus="dianji('block')" value="" id="lishi" >
+                    <div class="sousuo" onclick='cunchu()' ></div>
+                    <div class="History_box"  id="tanchu" >
+                        <div class="History" id='fjid' >
+                         
+                        </div>
+                        <div class="delHistory" onclick="qingkong()" >
+                            <p onclick='empry()'>清空历史记录</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="fuwu">
+                    <a href="http://www.kugou.com/shop/help/serviceCenter">客服中心</a>
+                    <a href="http://www.kugou.com/hr/html/index.html">招贤纳士</a>
+                    <a href="http://vip.kugou.com/">会员中心</a>
+                </div>
+                <button type="button" value="">登录</button>
+            </div>
+        
+             <!-- 导航部分 -->
+             <div class="Naviga">
+                    <div class="home">
+                        <a class="add" href="index.html">首页</a>
+                        <a class="add" href="list.html">榜单</a>
+                        <a class="add" href="download.html">下载客户端</a>
+                        <div class="up ">
+                        <a class="add">更多 V</a>
+                            <div class="inhome">
+                                    <a href="diantai.html">电台</a>
+                                    <a href="mv.html">MV</a>
+                                    <a href="song.html">歌单V</a>
+                                    <a href="man.html">歌手</a>
+                            </div>
+                        </div>
+                        <div class="nov">
+                            <a class="nov_1" href="http://fanxing.kugou.com/?action=spreadIndex&id=3">音乐直播</a>
+                            <a class="nov_2" href="http://live.kugou.com/">酷狗LIVE</a>
+                            <a class="nov_3"href="Musician.html" >音乐人</a>
+                            <a class="nov_4"href="Become.html">成为主播</a>
+                            <a class="nov_5"href='http://www.kugou.com/shop/product/kugouproduct/index.html'>商城</a>
+                        </div>
+                    </div>
+                </div>
+
+        <div class="voiced">
+            <p>将你制作的原创有声节目投稿到酷狗有声电台，与千万用户一同分享</p>
+            <a>申请成为电台主播</a>
+        </div>
+        <div class="end">
+                <div class="kugou1">
+                    <a>关于酷狗</a>
+                    <a>监督举报</a>
+                    <a>广告服务</a>
+                    <a>版权指引</a>
+                    <a>用户服务协议</a>
+                    <a>推广合作</a>
+                    <a>酷狗音乐人</a>
+                    <a>酷狗音乐推</a>
+                    <a>招聘信息</a>
+                    <a>客服中心</a>
+                    <a class="jihua"> 用户体验提升计划</a>
+                </div>
+                <div class="bor"></div>
+                <p>我们致力于推动网络正版音乐发展，相关版权合作请联系copyrights@kugou.com</p>
+                <p>信息网络传播视听节目许可证 1910564 增值电信业务经营许可证粤B2-20060339 &nbsp;&nbsp;&nbsp;<a class="beian">粤ICP备09017694号-2</a> <img src="https://www.kugou.com/common/images/footer_icon.png" class="cur"/></p>
+                <p>广播电视节目制作经营许可证（粤）字第01270号&nbsp;&nbsp;&nbsp;营业性演出许可证穗天演440106026</p>
+                <p>穗公网监备案证第44010650010167    互联网药品信息服务资格证编号（粤）-非经营性-2012-0018 <a class="beian">粤公网安备 44010602000141号</a><img src="http://www.kugou.com/common/images/icon_yuewangga1.png" class="cur"/></p>
+                <p>不良信息举报邮箱：jubao_music@kugou.net    客服邮箱：kefu@kugou.net</p>
+                <p>Copyright  ©  2004-2019 KuGou-Inc.All Rights Reserved <img src="https://www.kugou.com/common/images/logo_down.png" class="cur"/>
+                </p>
+         </div> 
+         <div class="kuzai"> 
+         <div class="kugouewm">
+            <p>手机扫码，安全登录酷狗</p>
+            <div class="saoyisao">
+                <img class="kgewm" src="data:image/png;base64,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"/>
+                <img src="https://staticssl.kugou.com/common/images/login/scan-tip.png?20190422"/ class="sys">
+            </div>
+            <p>打开<span>手机酷狗音乐</span>，扫一扫登录</p>
+            <a></a>
+         </div>  
+        </div>   
+    </div>    
+</body>
+</html>

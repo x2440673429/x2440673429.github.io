@@ -1,0 +1,1032 @@
+
+
+.content{
+    width: 100%;
+    
+    overflow: hidden;
+}
+
+.content1{
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+#arr{
+    position: absolute;
+    bottom: 75px;
+    left: 50%;
+    margin-left: -98px;
+}
+#arr a{
+    width: 8px;
+    height: 8px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    display: block;
+    float: left;
+    margin: 0 7px;
+    background: none;
+}
+#arr .act{
+    width: 12px;
+    height: 12px;
+    background: #fff;
+}
+#box{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 50px;
+    height: 90px;
+    line-height: 90px;
+    margin-top: -30px;
+    font-size: 50px;
+    background: rgba(0,0,0,0.3);
+    display: none;
+    cursor: pointer;
+}
+#box1{
+    display: none;
+    position: absolute;
+    top: 50%;
+    right:  0;
+    width: 50px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 50px;
+    margin-top: -30px;
+    background: rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+.content1:hover #box{
+    display: block;
+}
+.content1:hover #box1{
+    display: block;
+}
+.abc{
+    width: 100%;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    filter:(2px);
+ 
+}
+.cba{
+  margin: auto;
+    width:743px;
+    height: 64px;
+    line-height: 58px;
+    color: #fff;
+   
+    font-size: 15px;
+}
+.cba .a{
+    margin-right: 30px;
+    cursor: pointer;
+    background: url(https://staticssl.kugou.com/public/root/images/pc.png)no-repeat;
+    background-position: 0px;
+}
+.cba .b{
+    margin-right: 30px;
+    cursor: pointer;
+    background: url(https://staticssl.kugou.com/public/root/images/mac.png)no-repeat;
+    background-position: 0px;
+}
+.cba .c{
+    background: url(https://staticssl.kugou.com/public/root/images/andriod.png)no-repeat;
+    background-position: 0px;
+    cursor: pointer;
+}
+
+.cba a{
+    margin: 0 45px;
+}
+.cba div{
+    display: inline-block;
+}
+.cba .a a{
+    padding-right: 65px;
+    border-right: 1px solid rgba(255,255,255, 0.3);
+}
+.cba .b a{
+    padding-right: 65px;
+    border-right: 1px solid rgba(255,255,255, 0.3);
+}
+.cba a:hover{
+    color: #ffffdf;
+}
+.cba .a:hover{
+    background: url(https://staticssl.kugou.com/public/root/images/pc_hover.png)no-repeat;
+    background-position: 0px 16px;
+}
+.cba .b:hover{
+    background: url(https://staticssl.kugou.com/public/root/images/mac_hover.png)no-repeat;
+    background-position: 0px 16px;
+}
+.cba .c:hover{
+    background: url(https://staticssl.kugou.com/public/root/images/andriod_hover.png)no-repeat;
+    background-position: 0px 16px;
+}
+.yinyue{
+    width: 1000px;
+    margin: auto;
+}
+.gedan .shangl{
+    margin-top: 50px;
+    overflow: hidden;
+}
+.zuo{
+    width: 650px;
+    float: left;
+}
+.you{
+    margin-left: 20px;
+    width: 320px;
+    float: right;
+}
+.gedan .shangl .jing{
+    font-weight: 400;
+    color: #009af3;
+    font-size: 30px;
+}
+.gedan .shangl .ge{
+    font-weight: 400;
+    color: #555;
+    font-size: 30px;
+    margin-left: -2px;
+    
+}
+.gedan .shangl .duo{
+    float: right;
+    font-size: 13px;
+    margin-top: 10px;
+    color: #999;
+    cursor: pointer;
+}
+.gedan .shangl .duo:hover{
+    color: #009af3;
+}
+.biggek img{
+    width: 325px;
+    height: 325px;
+    cursor: pointer;
+}
+.gg{
+    width: 1000px;
+    overflow: hidden;
+}
+.gekuang {
+    width: 660px;
+    margin-top: 30px;
+    overflow: hidden;
+    float: left;
+}
+.gekuang .biggek{
+    width: 325px;
+    height: 325px;
+    float: left;
+    margin-right: 5px;
+    position: relative;
+}
+.renshu{
+    background: url(https://staticssl.kugou.com/public/root/images/cptTBg.png)no-repeat;
+    width: 160px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;;
+    padding-right: 8px;
+    color: #fff;
+    text-align: right;
+    font-size: 13px;
+    line-height: 30px;
+}
+.rentou{
+    background: url(https://staticssl.kugou.com/public/root/images/sprite.png) no-repeat;
+    width: 14px;
+    height: 14px;
+    background-position: 0 -267px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 8px;
+}
+.bomge{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    background: rgba(0, 0, 0, 0.5);
+    padding: 6px 8px;
+    font-size: 14px;
+    height: 38px;
+    width: 309px;
+}
+.geming{
+    color: #cfcfcf;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 19px;
+}
+.qingge{
+    line-height: 19px;
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.zuok{
+    float: left;
+}
+.zuoshang img{
+    width: 160px;
+    height: 160px;
+}
+.zuoxia img{
+    width: 160px;
+    height: 160px;
+}
+.qq{
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+.renshu{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.aaa{
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    width: 144px;
+    padding: 6px 8px;
+    background: rgba(0,0,0,.5);
+    height: 38px;
+    font-size: 14px;
+}
+.ww{
+    float: left;
+    margin-left: 5px;
+    position: relative;
+    cursor: pointer;
+}
+.renshu{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.aaa{
+    position: absolute;
+    bottom:4px;
+    left: 0;
+    width: 144px;
+    padding: 6px 8px;
+    background: rgba(0,0,0,.5);
+    height: 38px;
+    font-size: 14px;
+}
+.ee{
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+.renshu{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.aaa{
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    width: 144px;
+    padding: 6px 8px;
+    background: rgba(0,0,0,.5);
+    height: 38px;
+    font-size: 14px;
+}
+.rr{
+    float: left;
+    margin-left: 5px;
+    position: relative;
+    cursor: pointer;
+}
+.renshu{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.aaa{
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    width: 144px;
+    padding: 6px 8px;
+    background: rgba(0,0,0,.5);
+    height: 38px;
+    font-size: 14px;
+}
+.rr img{
+    width: 160px;
+    height: 160px;
+}
+.remen{
+    float: left;
+    width: 322px;
+    margin-left: 18px;
+    margin-top: 30px;
+}
+.topbang img{
+    width: 98px;
+    height: 98px;
+    float: left;
+}
+.one1{
+    width: 320px;
+    height: 98px;
+    /* position: relative; */
+    margin-bottom: 15px;
+    background-color: #f6f6f6;
+    cursor: pointer;
+}
+.dianyou {
+   position: absolute;
+   top: 50%;
+   right: 0;
+    margin-right: 5px;
+    margin-top: -10px;
+    color: #ccc;
+}
+.text1{
+    float: left;
+    padding: 15px 10px;
+    font-size: 14px;
+    width: 200px;
+    height: 68px;
+}
+.text1 p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 180px;
+    height: 24px;
+    color: #555;;
+}
+.text1 b{
+    line-height: 24px;
+    color: #333;
+    font-weight: 700;
+}
+.nvshen{
+    margin-bottom: 40px;
+}
+.nwezuo{
+    width: 650px;
+    height: 51px;
+    border-bottom: 1px solid #cfcfcf;
+    float: left;
+}
+.nwezuo a{
+    float: left;
+    
+    height: 30px;
+    margin-right: 35px;
+    color: #555;
+    font-size: 30px;
+}
+.nwezuo span{
+    color:  #009af3;
+}
+.city{
+    margin-top: 10px;
+    float: left;
+}
+.city a{
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 20px;
+    display: inline-block;
+}
+.nwezuo button{
+    float: right;
+    border: 1px solid #dbdbdb;
+    padding: 5px 10px;
+    width: 95px;
+    background-color: #fff;
+    overflow: hidden;
+    outline:none;
+    cursor: pointer;
+    margin-top: 8px;
+}
+.nwezuo .sanjiao{
+    background: url(https://staticssl.kugou.com/public/root/images/sprite.png);
+    background-position: 0 -303px;
+    width: 19px;
+    height: 14px;
+    float: left;
+    margin-top: 2px;
+}
+
+.nwezuo em{
+    font-style: normal;
+    color: #555;
+    float: right;
+}
+.nwezuo button:hover{ 
+    
+    border: 1px solid #009af3;
+}
+.nwezuo button:hover span{
+    background-position: 0 -341px;
+    width: 12px;
+    height: 14px;
+}
+.nwezuo button:hover em{
+    color: #009af3;
+}
+.nweyou{
+    float: right;
+    width: 320px;
+}
+.nweyou a{
+    float: left;
+    height: 30px;
+    margin-right: 35px;
+    color: #555;
+    font-size: 30px;
+}
+.nweyou span{
+    color:  #009af3;
+}
+.nweyou b{
+    float: right;
+    font-size: 13px;
+    margin-top: 13px;
+    color: #999;
+    cursor: pointer;
+}
+.bibao{
+    width: 650px;
+    float: left;
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+    height: 315px;
+    cursor: pointer;
+}
+#gem{
+    width: 650px;
+    
+    height: 280px;
+}
+.pages{
+    position: absolute;
+    top: 287px;
+    left: 50%;
+    margin-left: -29px; 
+    z-index: 
+    5;
+    color:rgb(141, 141, 141);
+}
+.ye{
+    font-size: 12px;
+    max-width: 500px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #333;
+    line-height: 35px;
+    cursor: pointer;
+}
+.sp{
+    background: url(https://staticssl.kugou.com/public/root/images/first.png)no-repeat;
+    display: inline-block;
+    width: 21px;
+    height: 12px; 
+    margin-left: 10px;
+}
+.ye:hover .sp{
+    display: none;
+}
+.ye:hover{
+    background-color: #f5f8fb;
+    color: #009af3;
+}
+.mv{
+    width: 320px;
+    float: right;
+    margin-top: 10px;
+}
+.mv .one_img{
+    width: 320px;
+    height: 175px;
+}
+.mv .tow_img{
+    width: 154px;
+    height: 84px;
+    margin-top: 10px;
+}
+.lizongsheng{
+    position: relative;
+    cursor: pointer;
+}
+.xinxie{
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    padding: 6px 8px;
+    background: rgba(0,0,0,.5);
+    font-size: 14px;
+    height: 38px;
+    width: 304px;
+}
+.xinxie p{
+    line-height: 19px;
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.xinxie a{
+    color: #cfcfcf;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 19px;
+}
+.bomba{
+    float: left;
+    cursor: pointer;
+}
+.bomba p{
+    width: 154px;
+    color: #444;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.bomba a{
+    color: #888;
+    font-size: 12px;
+}
+.yishuang{
+    float: right;
+    margin-left: 7px;
+    cursor: pointer;
+}
+.yishuang p{
+    width: 154px;
+    color: #444;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.yishuang a{
+    color: #888;
+    font-size: 12px;
+}
+.nwege{
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.doorl{
+    width: 650px;
+    height: 51px;
+    float: left;
+    
+}
+.doorl a{
+    float: left;
+    height: 30px;
+    margin-right: 35px;
+    color: #555;
+    font-size: 30px;
+}
+.doorl span{
+    color:  #009af3;
+}
+.doorl b{
+    float: right;
+    font-size: 13px;
+    margin-top: 13px;
+    color: #999;
+    cursor: pointer;
+}
+.doorl b:hover{
+    color: #009af3;
+}
+.doorr{
+    width: 320px;
+    height: 51px;
+    float: left;
+    margin-left: 20px;
+}
+.doorr a{
+    float: left;
+    height: 30px;
+    
+    color: #555;
+    font-size: 30px;
+}
+.doorr span{
+    color:  #009af3;
+}
+.doorr b{
+    float: right;
+    font-size: 13px;
+    margin-top: 13px;
+    color: #999;
+    cursor: pointer;
+}
+.doorr b:hover{
+    color: #009af3;
+}
+.kangcui{
+    float: left;
+}
+.kangcui a{
+    cursor: pointer;
+    font-size: 14px;
+ 
+    display: inline-block;
+    margin: 12px 10px 0 15px;
+}
+.door{
+    margin-bottom: 40px;
+}
+.doortop{
+    overflow: hidden;
+}
+.hotdor{
+    width: 650px;
+    float: left;
+    overflow: hidden;
+    height: 310px;
+    margin-right: 20px;
+}
+.hotdor1{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 37px;
+    margin-top: 10px;
+}
+.hotdor1 img{
+    width: 100px;
+    height: 100px;
+}
+.hotdor1 p{
+    width: 100px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 5px;
+}
+.hotdor .hotdoor{
+    margin-right: -20px;
+}
+.hotdor2{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 37px;
+    margin-top: 40px;
+}
+.hotdor2 img{
+    width: 100px;
+    height: 100px;
+}
+.gem{
+    overflow: hidden;
+    margin-left: 20px;
+}
+.gem p{
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    line-height: 30px;
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 10px;
+}
+.gem img{
+   width: 100%;
+   height: 100%;
+    
+}
+/* .zjl{
+    width: 330px;
+    float: left;
+    color: #fff;
+    margin-left: 20px;
+} */
+.gem .dzq{
+    width: 160px;
+    height: 160px;
+    float: left;
+    position: relative;
+    cursor: pointer;
+
+}
+.gem .dzq,.gem .zq{
+    margin: 0 5px 5px 0;
+    
+}
+/* .jj{
+    width: 160px;
+    height: 160px;
+}
+.dzq p{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    
+}
+.gd{
+    width: 160px;
+    height: 160px;
+    float: left;
+    position: relative;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.xzq{
+    width: 330px;
+    float: left;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+} */
+.gem .zq{
+    width: 105px;
+    height: 105px;
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+/* .zq p{
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+}
+.zz{
+    width: 105px;
+    height: 105px;
+}
+.xs{
+    width: 105px;
+    height: 105px;
+    float: left;
+    position: relative;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.xs p{
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+}
+.ljj{
+    width: 105px;
+    height: 105px;
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+.ljj p{
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+} */
+.diandiandian{
+    width: 48px;
+    overflow: hidden;
+    margin: auto;
+}
+.diandiandian a{
+    width: 6px;
+    height: 6px;
+    background: #666;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 5px;
+    display: block;
+    float: left;
+    
+}
+
+
+.myhidec{
+    position: absolute;
+    background: rgba(0,0,0,0.3);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../image/bf.png);
+    background-repeat: no-repeat;
+    /* background-position: 0 -401px;
+    background-size: 36px 36px; */
+}
+.myhide{
+    position: absolute;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 100;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-image: url(../image/bf.png);
+    background-repeat: no-repeat;
+    /* background-position: 0 0; */
+     /* background-size: 36px 36px;  */
+}
+
+.myhidec .play{
+    background-image: url(https://staticssl.kugou.com/public/root/images/sprite.png);
+    background-position: 0 -401px;
+    width: 36px;
+    height: 36px;
+    background: #f00;
+    
+
+
+}
+
+.myhide  .play{
+    /* background-image: url(https://staticssl.kugou.com/public/root/images/sprite.png);
+    background-position: 0 -401px; */
+    width: 36px;
+    height: 36px;
+    margin: 0 6px 6px 0;
+    background: #f00;
+}
+.Partner{
+    margin: 40px 0;
+    overflow: hidden;
+}
+.Partner a{
+    float: left;
+    height: 40px;
+    
+    color: #555;
+    font-size: 30px;
+}
+.Partner span{
+    color:  #009af3;
+}
+.cooperation{
+    width: 1010px;
+    overflow: hidden;
+}
+.cooperation img{
+    width: 130px;
+    height: 58px;
+    margin: 0 12px 12px 0;
+    border: 1px dashed #ccc;
+    float: left;
+}
+.Partner b{
+    float: right;
+    font-size: 13px;
+    margin-top: 13px;
+    color: #999;
+    cursor: pointer;
+}
+.Partner b:hover{
+    color: #009af3;
+}
+.link{
+    width: 1000px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.link a{
+    overflow: hidden;
+    display: block;
+    width: 125px;
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: #555;
+    float: left;
+    font-size: 13px;
+    cursor: pointer;
+}
+.link a:hover{
+    color: #009af3;
+}
+.yinyue>img{
+    cursor: pointer;
+}
+.end{
+    width: 100%;
+    height: 321px;
+    background:#2c323b;
+}
+.kugou{
+    width: 977px;
+    margin: auto;
+    padding: 15px;
+
+}
+.kugou a{
+    border-right: 1px solid #b1b3b9;;
+    color: #b1b3b9;
+    padding: 0 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.kugou .jihua{
+    border: none;
+}
+.kugou a:hover{
+    color: #009af3;
+}
+.bor{
+    border-bottom: 1px solid #3d424a;
+    margin-bottom: 40px;
+}
+.end p {
+    line-height: 30px;
+    text-align: center;
+    font-size: 13px;
+    color: #b1b3b9;
+}
+.end .beian {
+    color: #999;
+    cursor: pointer;
+}
+.end .cur{
+    cursor: pointer;
+}
+.scrollTop {
+    position: fixed;
+    right: 50%;
+    margin-right: -570px;
+    
+    bottom: 50px;
+    background: url(https://staticssl.kugou.com/public/root/images/scrollTop1.png);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: none;
+}
+.scrollTop:hover{
+    background:url(https://staticssl.kugou.com/public/root/images/scrollTop2.png);
+}
+
+
+/* 
+.myhide .dboxc{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.myhide .dboxc .play{
+    background-image: url(https://staticssl.kugou.com/public/root/images/sprite.png);
+    background-position: 0 -401px;
+    width: 36px;
+    height: 36px;
+    
+
+}
+
+.myhide .dbox {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.myhide .dbox .play{
+    background-image: url(https://staticssl.kugou.com/public/root/images/sprite.png);
+    background-position: 0 -401px;
+    width: 36px;
+    height: 36px;
+    margin: 0 6px 6px 0;
+    
+
+} */
+
+

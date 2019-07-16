@@ -1,0 +1,173 @@
+.fix{
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.fix .fix_left{
+    width: 210px;
+    color: #8e8e8e;
+    padding-top: 10px;
+    float: left;
+}
+.fix .fix_left a{
+    display: block;
+    text-align: center;
+    width: 210px;
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: 18px;
+    cursor: pointer;
+}
+.fix .fix_left .blua{
+    background: #169af3;
+    color: #fff;
+}
+.fix .fix_left a:hover{
+    background: #169af3;
+    color: #fff;
+}
+.fix .fix_right{
+    width: 770px;
+    float: right;
+    
+}
+.fix .fix_right .sheet{
+    width: 770px;
+    height: 124px;
+    border-bottom: 1px solid #dcdcdc;
+    margin-bottom: 16px;
+    
+}
+.fix .fix_right .sheet .photo{
+    display: block;
+    float: left;
+    width: 108px;
+    background: url(https://www.kugou.com/yy/static/images/other.png?v=png_8&time=2014_02_27_05_17_36) no-repeat;
+    background-position: -119px -407px;
+}
+.fix .fix_right .sheet .photo img{
+    width: 100px;
+    margin: 4px 0 0 4px;
+    cursor: pointer;
+}
+.fix .fix_right .sheet .text{
+    width: 650px;
+    height: 124px;
+    float: right;
+}
+.fix .fix_right .sheet .text .text_top a{
+    width: 450px;
+    height: 25px;
+    display: inline-block;
+    color: #323232;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 0 7px;
+    cursor: pointer;
+}
+.fix .fix_right .sheet .text .text_top em{
+    color: #333;
+    font-style: normal;
+    display: inline;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    float: right;
+    width: 150px;
+    height: 20px;
+    text-align: right;
+    font-size: 13px;
+}
+.fix .fix_right .sheet .text .txt{
+    width: 637px;
+    height: 40px;
+    margin: -2px 13px 6px 0;
+    color: #999;
+    line-height: 22px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    font-size: 13px;
+}
+.fix .fix_right .sheet .text .both{
+    width: 650px;
+    height: 28px;
+    margin-top: 8px;
+    font-size: 13px;
+    color: #fff;
+    
+    line-height: 28px;
+}
+.fix .fix_right .sheet .text .both .play{
+    width: 105px;
+    height: 28px;
+    background-color: #169af3;
+    display: inline-block;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.fix .fix_right .sheet .text .both .play span{
+    display: inline-block;
+    width: 9px;
+    height: 12px;
+    background: url(http://static.kgimg.com/common/images/pc_temp_v2/icon_splice.png?20150814) no-repeat ;
+    background-position: -570px -90px;
+    margin-right: 5px;
+}
+.fix .fix_right .sheet .text .both .share{
+    display: inline-block;
+    width: 91px;
+    height: 28px;
+    background: #169af3;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.fix .fix_right .sheet .text .both .share span{
+    display: inline-block;
+    background: url(http://static.kgimg.com/common/images/pc_temp_v2/icon_splice.png?20150814) no-repeat ;
+    width: 14px;
+    height: 14px;
+    background-position: -300px -90px;
+    margin-right: 7px;
+}
+.fix .fix_right .sheet .photo:hover{
+    background-position: -2px -408px;
+}
+.fix .fix_right .sheet .text .text_top a:hover{
+    color: #6fcef4;
+}
+.fix .fix_right .sheet .text .both .share:hover{
+    background: #158fe1;
+}
+.fix .fix_right .sheet .text .both .play:hover{
+    background: #158fe1;
+}
+.download{
+    width: 750px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    float: right;
+    
+}
+.download button{
+    width: 108px;
+    height: 36px;
+    font-size: 16px;
+    color: #fff;
+    background: #169af3;
+    margin-left: 20px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.download button:hover{
+    background-color: #158fe1;
+}
