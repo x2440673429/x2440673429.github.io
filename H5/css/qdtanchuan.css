@@ -1,0 +1,55 @@
+.beijing{
+	width: 100%;
+	height:13.34rem;
+	background: rgba(0,0,0,0.5);
+	
+	padding: 1.97rem 0 0 1rem;
+	box-sizing: border-box;
+}
+.beijing .tixian{
+	height: 7.6rem;
+	background: url(../img/qd3@2x.png)no-repeat;
+	background-size: 100% 100%;
+	padding: 1.75rem;
+	box-sizing: border-box;
+	position: relative;
+}
+.beijing .tixian .top{
+	width: 3.31rem;
+	height: 1.02rem;
+	margin-left: 0.5rem;
+}
+.beijing .tixian .top p{
+	font-size: 0.45rem;
+	color: #F9F9F9;
+}
+.beijing .tixian .top p:last-child{
+	margin-left: -0.9rem;
+}
+.beijing .tixian .zhongj{
+	width: 2.42rem;
+	height: 1.58rem;
+	margin: 0.8rem 0 0 -0.7rem;
+
+}
+.beijing .tixian .zhongj P{
+	font-size: 0.24rem;
+	color: #FFFFFF;
+	line-height: 0.38rem;
+}
+.beijing .tixian .zhongj .first{
+	font-size: 0.48rem;
+	color: #FFFFFF;
+	margin-bottom: 0.43rem;
+}
+.beijing .tixian .zhongj .first span{
+	font-size: 0.64rem;
+	font-weight: bold;
+}
+.beijing .tixian img{
+	width: 0.52rem;
+	height: 0.52rem;
+	position: absolute;
+	bottom: -1rem;
+	left: 39%;
+}

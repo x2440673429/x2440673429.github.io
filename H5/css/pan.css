@@ -1,0 +1,356 @@
+.top2{
+	width: 100%;
+	height: 3.2rem;
+	background: url(../img/banner@2x.png)no-repeat;
+	background-size: 100% 100%;
+}
+.top2 a{
+	font-size: 0.5rem;
+	margin-left: 0.25rem;
+	float: left;
+	margin-top: 0.2rem;
+	color: #333333;
+}
+.yuanbao{
+	width: 7.13rem;
+	height: 2.59rem;
+	background: url(../img/cfangx.png)no-repeat;
+	background-size: 7.13rem 2.59rem;
+	
+	padding: 0.61rem 0.39rem;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: -0.3rem;
+}
+.yuanbao .jingji a:first-child{
+	color: #333333;
+	font-size: 0.3rem;
+	display: inline-block;
+	float: left;
+	margin-right: 0.24rem;
+}
+.yuanbao .jingji .huodong{
+	font-size: 0.26rem;
+	color: #999999;
+	display: inline-block;
+	float: left;
+}
+.yuanbao .jingji p{
+	font-size: 0.8rem;
+	color: #FF7365;
+	margin-top: 0.63rem;
+}
+.yuanbao  .jingji p span{
+	font-size: 0.48rem;
+}
+.yuanbao  .jingji img{
+	width: 0.28rem;
+	height: 0.28rem;
+	display: inline-block;
+	float: left;
+	margin: 0.05rem 0.06rem 0 0 ;
+}
+.yuanbao .jingji{
+	width: 3.03rem;
+	float: left;
+}
+.yuanbao .qiandao{
+	background:linear-gradient(90deg,rgba(255,115,101,1),rgba(255,152,50,1));
+	width: 1.6rem;
+	height: 0.7rem;
+	border-radius: 0.35rem;
+	float: right;
+	margin: 0.4rem 0  0 0 ;
+}
+.yuanbao .yiqd{
+	background: #d7d7d7;
+	width: 1.6rem;
+	height: 0.7rem;
+	border-radius: 0.35rem;
+	float: right;
+	margin: 0.4rem 0  0 0 ;
+	
+}
+.yuanbao .qiandao a{
+	width: 1.6rem;
+	height: 0.7rem;
+	text-align: center;
+	line-height: 0.7rem;
+	color: #FFFFFF;
+	font-size: 0.32rem;
+	float: right;
+	text-decoration: none;
+}
+.yuanbao .yiqd a{
+	width: 1.6rem;
+	height: 0.7rem;
+	text-align: center;
+	line-height: 0.7rem;
+	color: #FFFFFF;
+	font-size: 0.32rem;
+	float: right;
+	text-decoration: none;
+}
+.bobys{
+	width: 100%;
+	height: 1rem;
+	border-bottom: 0.01rem solid #ebebeb;
+}
+.bobys .aft{
+	width: 50%;
+    height: 1rem;
+    float: left;
+    font-size: 0.32rem;
+    line-height: 1rem;
+    text-align: center;
+    position: relative;
+}
+.bobys .aftact{
+	width: 50%;
+    height: 1rem;
+    float: left;
+    font-size: 0.32rem;
+    line-height: 1rem;
+    text-align: center;
+    position: relative;
+	color: #FF7365;
+}
+
+.bobys  .aft .bor{
+	display: none;
+}
+.bobys  .aftact .bor{
+	width: 0.8rem;
+    height: 0.1rem;
+    margin: auto;
+    background: #FF7365;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+	display: block;
+    margin-left: -0.4rem;
+    border-radius: 0.2rem;
+}
+.play{
+	width: 7.13rem;
+	height: 0.99rem;
+	margin: auto;
+	background: url(../img/chang%204@2x.png)no-repeat;
+	background-size: 100% 100%	;
+	padding: 0.29rem 0.57rem 0 0.4rem;
+	box-sizing: border-box;
+	margin-top: 0.23rem;
+}
+.play img{
+	width: 2rem;
+	height: 0.39rem;
+	float: left;
+}
+.play a{
+	font-size: 0.26rem;
+	color: #333333;
+	display: inline-block;
+	float: right;
+}
+.player{
+	width: 100%;
+	height: 100%;
+
+}
+.player .one{
+	width: 6.94rem;
+	height: 1.38rem;
+	border-bottom: 0.01rem solid rgba(235,235,235,1);
+	margin: auto;
+	padding-top: 0.19rem;
+	margin-bottom: 0.11rem;
+}
+.player  .one img{
+	width: 0.9rem;
+	height: 0.9rem;
+	float: left;
+	margin-right: 0.32rem;
+}
+.player  .one .who{
+	width: 3.33rem;
+	height: 0.7rem;
+	float: left;
+}
+.player  .one .who p{
+	font-size: 0.3rem;
+	color: #333333;
+}
+.player  .one .who a{
+	font-style: normal;
+	font-size: 0.24rem;
+	color: #999999;
+	display: inline-block;
+	float: left;
+	margin-top: 0.24rem;
+}
+.player  .one .who a span{
+	color: #FF7365;
+	
+}
+.player .one .who .o1{
+	margin-right: 0.39rem;
+}
+.player .one .qiang{
+	width: 1.6rem;
+	height: 0.6rem;
+	background: url(../img/qiang.png)no-repeat;
+	background-size: 100% 100%;
+	float: right;
+	margin-top: 0.15rem;
+}
+.player .one .qiang a{
+	float: right;
+	color: #FFFFFF;
+	font-size: 0.24rem;
+	width: 1.6rem;
+	height: 0.6rem;
+	text-align: center;
+	line-height: 0.6rem;
+}
+.player .one .fu{
+	width: 1.6rem;
+	height: 0.6rem;
+	background: #d7d7d7;
+	border-radius: 0.35rem;
+	float: right;
+	margin-top: 0.15rem;
+}
+	.player .one .fu a{
+		float: right;
+		color: #FFFFFF;
+		font-size: 0.24rem;
+		width: 1.6rem;
+		height: 0.6rem;
+		text-align: center;
+		line-height: 0.6rem;
+	}
+	
+	
+	
+	
+	.beijing{
+		width: 100%;
+		height:13.34rem;
+		background: rgba(0,0,0,0.5);
+		padding: 1.97rem 0 0 1rem;
+		box-sizing: border-box;
+		position: fixed;
+		top: 0;
+		left: 0;
+		display: none;
+	}
+	.beijing .tixian{
+		height: 7.6rem;
+		background: url(../img/qd3@2x.png)no-repeat;
+		background-size: 100% 100%;
+		padding: 1.75rem;
+		box-sizing: border-box;
+		position: relative;
+	}
+	.beijing .tixian .top{
+		width: 3.31rem;
+		height: 1.02rem;
+		margin-left: 0.5rem;
+	}
+	.beijing .tixian .top p{
+		font-size: 0.45rem;
+		color: #F9F9F9;
+	}
+	.beijing .tixian .top p:last-child{
+		margin-left: -0.9rem;
+	}
+	.beijing .tixian .zhongj{
+		width: 2.42rem;
+		height: 1.58rem;
+		margin: 0.8rem 0 0 -0.7rem;
+	
+	}
+	.beijing .tixian .zhongj P{
+		font-size: 0.24rem;
+		color: #FFFFFF;
+		line-height: 0.38rem;
+	}
+	.beijing .tixian .zhongj .first{
+		font-size: 0.48rem;
+		color: #FFFFFF;
+		margin-bottom: 0.43rem;
+	}
+	.beijing .tixian .zhongj .first span{
+		font-size: 0.64rem;
+		font-weight: bold;
+	}
+	.beijing .tixian img{
+		width: 0.52rem;
+		height: 0.52rem;
+		position: absolute;
+		bottom: -1rem;
+		left: 39%;
+	}
+	
+	
+	
+	
+	.beijing2{
+		width: 100%;
+		height:13.34rem;
+		background: rgba(0,0,0,0.5);
+		padding: 1.97rem 0 0 1rem;
+		box-sizing: border-box;
+		position: fixed;
+		top: 0;
+		left: 0;
+		display: none;
+	}
+	.beijing2 .tixian2{
+		height: 7.6rem;
+		background: url(../img/qd3@2x.png)no-repeat;
+		background-size: 100% 100%;
+		padding: 1.75rem;
+		box-sizing: border-box;
+		position: relative;
+	}
+	.beijing2 .tixian2 .top3{
+		width: 3.31rem;
+		height: 1.02rem;
+		margin-left: 0.5rem;
+	}
+	.beijing2 .tixian2 .top3 p{
+		font-size: 0.45rem;
+		color: #F9F9F9;
+	}
+	.beijing2 .tixian2 .top3 p:last-child{
+		margin-left: -0.9rem;
+	}
+	.beijing2 .tixian2 .zhongj2{
+		width: 2.42rem;
+		height: 1.58rem;
+		margin: 0.8rem 0 0 -0.7rem;
+	
+	}
+	.beijing2 .tixian2 .zhongj2 P{
+		font-size: 0.24rem;
+		color: #FFFFFF;
+		line-height: 0.38rem;
+	}
+	.beijing2 .tixian2 .zhongj2 .first{
+		font-size: 0.48rem;
+		color: #FFFFFF;
+		margin-bottom: 0.43rem;
+	}
+	.beijing2 .tixian2 .zhongj2 .first span{
+		font-size: 0.64rem;
+		font-weight: bold;
+	}
+	.beijing2 .tixian2 img{
+		width: 0.52rem;
+		height: 0.52rem;
+		position: absolute;
+		bottom: -1rem;
+		left: 39%;
+	}
+	

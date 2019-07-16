@@ -1,0 +1,134 @@
+.top{
+	width: 100%;
+	height: 1rem;
+	background: #ffffff;
+	box-shadow:0px 1px 3px 0px rgba(0, 0, 0, 0.05);
+	box-sizing: border-box;
+	border-bottom: 0.01rem solid #EEEEEE;
+	margin-bottom: 0.12rem;
+	line-height: 1rem;
+	position: relative;
+}
+ .top a{
+	float: left;
+	font-weight:500;
+	position: absolute;
+	font-size: 0.5rem;
+	top: 0;
+	left: 0.25rem;	
+	color: #3e3b3b;
+}
+ .top p{
+	font-size:0.34rem;
+	font-family:PingFangSC-Medium;
+	font-weight:bold;
+	color: #525252;
+	text-align: center;
+} 
+.address {
+	widows: 100%;
+}
+.address  .add1{
+	width: 100%;
+	height: 1.83rem;
+}
+.address .xuanzhong {
+	display: inline-block;
+	float: left;
+}
+.address  .add1 .xuanzhong .yuan{
+	width: 0.34rem;
+	height: 0.34rem;
+	border: 0.02rem solid #949494;
+	border-radius: 50%;
+	display: inline-block;
+	float: left;
+	margin: 0.72rem  0.32rem; 
+	box-sizing: border-box;
+}
+.address  .add1 .xuanzhong .yuan1{
+	width: 0.34rem;
+	height: 0.34rem;
+	border-radius: 50%;
+	display: inline-block;
+	float: left;
+	margin: 0.72rem  0.32rem; 
+	box-sizing: border-box;
+}
+.address  .add1  .xuanzhong .yuan .im{
+	 	display: none;
+}
+.address  .add1  .xuanzhong .yuan1 .im{
+		width: 0.34rem;
+		height: 0.34rem;
+		float: left;
+}
+.address .one{
+	width: 6.48rem;
+	height: 1.83rem;
+	border-bottom: 0.01rem solid #E6E6E6;
+	float: left;
+}
+.address .one .shezhi {
+	width: 5.06rem;
+	height: 1.18rem;
+	border-right: 0.01rem solid #cccccc;
+	display: inline-block;
+	padding-right: 0.22rem;
+	box-sizing: border-box;
+	margin-top: 0.32rem;
+}
+.address .one .shezhi .name{
+	font-size: 0.36rem;
+	color: #111111;
+	font-family:PingFangSC-Medium;
+	font-weight:500;
+	margin-bottom: 0.12rem;
+	
+}
+.address .one .shezhi .name span{
+	font-size: 0.3rem;
+	color: #999999;
+	margin-left: 0.39rem;
+}
+.address .one .shezhi .dizhi{
+	width: 100%;
+	height: 0.61rem;
+	font-size: 0.26rem;
+	color: #333333;
+	font-family:PingFangSC-Regular;
+	font-weight:400;
+}
+.address .one .shezhi .dizhi b{
+	width: 0.75rem;
+    height: 0.35rem;
+    font-size: 0.24rem;
+    color: #E83342;
+    font-weight: normal;
+    border: 1px solid #e83342;
+    display: inline-block;
+    text-align: center;
+    border-radius: 0.1rem;
+    margin-right: 0.1rem;
+
+}
+.address .one  .edit{
+	font-size: 0.28rem;
+	color: #FF7365;
+	font-family:PingFangSC-Regular;
+	font-weight:400;
+	float: right;
+	margin: 0.82rem 0.38rem 0 0 ;
+}
+.xinzeng{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 1rem;
+	background:linear-gradient(90deg,rgba(255,115,101,1),rgba(255,152,50,1));
+	color: #FFFFFF;
+	font-size: 0.32rem;
+	text-align: center;
+	line-height: 1rem;
+}

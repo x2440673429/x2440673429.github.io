@@ -1,0 +1,118 @@
+.top{
+	width: 100%;
+	height: 1rem;
+	background: #ffffff;
+	box-shadow:0px 1px 3px 0px rgba(0, 0, 0, 0.05);
+	box-sizing: border-box;
+	position: relative;
+	line-height: 1rem;
+}
+.top a{
+	color: #333333;
+	font-size: 0.36rem;
+	float: left;
+	font-weight:500;
+	position: absolute;
+	top: 0;
+	left: 0.25rem;
+}
+.top p{
+	font-size:0.34rem;
+	font-family:PingFangSC-Medium;
+	font-weight:bold;
+	color: #525252;
+	text-align: center;
+} 
+.balance {
+	width: 6.94rem;
+	height: 2.44rem;
+	background:linear-gradient(180deg,rgba(255,152,50,1),rgba(255,115,101,1));
+	padding: 0.37rem 0 0 0.47rem;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 0.22rem;
+}
+.balance P{
+	font-size: 0.26rem;
+	color: #FFFFFF;
+	font-weight: 400;
+}
+.balance .nember{
+	color: #FFFFFF;
+	width: 100%;
+	height: 1rem;
+	margin: 0.43rem 0 0 0 ;
+}
+.balance .nember b{
+	font-size: 0.78rem;
+	line-height: 0.2rem;
+	font-weight: 400;
+	float: left;
+}
+.balance .nember a{
+	width: 1.27rem;
+	height: 0.5rem;
+	border: 0.01rem solid #ffffff;
+	border-radius: 0.25rem;
+	font-size: 0.22rem;
+	line-height: 0.5rem;
+	text-align: center;
+	display: inline-block;
+	float: left;
+	margin: -0.1rem 0 0 0.85rem;
+}
+.balance .nember span{
+	font-size: 0.48rem;
+	float: right;
+	margin-right: 0.2rem;
+	margin-top: -0.2rem;
+}
+.Income {
+	width: 100%;
+	padding: 0 0.23rem 0 0.27rem;
+	box-sizing: border-box;
+}
+.Income b{
+	font-size: 0.36rem;
+	color: #333333;
+	font-weight: 500;
+}
+.Income .details{
+	width: 100%;
+	height: 1.38rem;
+	border-bottom: 0.01rem solid #EEEEEE;
+	padding-top: 0.35rem;
+	box-sizing: border-box;
+}
+.Income .details p{
+	font-size: 0.3rem;
+	color: #333333;
+	font-weight: 400;
+	line-height: 0.2rem;
+}
+	
+.Income .details p span{
+	color: #fd1e1e;
+	float: right;
+	margin-right: 0.05rem;
+}
+.Income .details p .mach{
+	color: #42D425;
+}
+.Income .details a{
+	font-size: 0.24rem;
+	color: #999999;
+	font-weight: 400;
+	line-height: 0.2rem;
+	float: left;
+	margin-top: 0.3rem;
+}
+.Income .details .time{
+	float: right;	
+}
+.no{
+	font-size: 0.22rem;
+	color: #999999;
+	text-align: center;
+	margin-top: 0.39rem;
+}

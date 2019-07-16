@@ -1,0 +1,103 @@
+
+.top{
+	width: 100%;
+	height: 1rem;
+	background: #ffffff;
+	box-shadow:0px 1px 3px 0px rgba(0, 0, 0, 0.05);
+	box-sizing: border-box;
+	border-bottom: 0.01rem solid #EEEEEE;
+	margin-bottom: 0.12rem;
+	line-height: 1rem;
+	position: relative;
+}
+ .top a{
+	float: left;
+	font-weight:500;
+	position: absolute;
+	font-size: 0.5rem;
+	top: 0;
+	left: 0.25rem;	
+	color: #3e3b3b;
+}
+ .top p{
+	font-size:0.34rem;
+	font-family:PingFangSC-Medium;
+	font-weight:bold;
+	color: #525252;
+	text-align: center;
+} 
+.shezhi{
+	width: 100%;
+	padding: 0 0.44rem;
+	box-sizing: border-box;
+}
+.shezhi .man{
+	width: 100%;
+	
+	border-bottom: 0.01rem solid #e6e6e6;
+}
+.shezhi .man:last-child{
+	border-bottom: none;
+}
+.shezhi .man p{
+	font-size: 0.3rem;
+	color: #333333;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	line-height: 0.6rem;
+	margin-left: -0.15rem;
+	position: relative;
+	overflow: hidden;
+	padding: 0.2rem 0;
+}
+.shezhi .man .mrdz{
+	overflow: initial;
+	
+}
+.shezhi .man p input{
+	color: #666666;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	float: right;
+	width: 4.9rem;
+	height: 0.6rem;
+	border: none;
+	outline: none;
+}
+.shezhi .man p span{
+	color: #ff4c4c;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	position: absolute;
+	line-height: 1rem;
+	top: 0;
+	left: 1.8rem;
+}
+.shezhi .man p .kai{
+	width: 0.98rem;
+	height: 0.49rem;
+	float: right;
+	margin-top: 0.25rem;
+	margin-right: -0.11rem;
+	
+}
+.shezhi .man p .guan{
+	width: 0.98rem;
+	height: 0.49rem;
+	float: right;
+	margin-top: 0.25rem;
+	margin-right: -0.11rem;
+	display: none;
+}
+.queding{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 1rem;
+	background:linear-gradient(90deg,rgba(255,115,101,1),rgba(255,152,50,1));
+	color: #FFFFFF;
+	font-size: 0.32rem;
+	text-align: center;
+	line-height: 1rem;
+}

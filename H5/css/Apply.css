@@ -1,0 +1,57 @@
+html,body{
+	height: 100%;
+}
+.beijing{
+	background: #fafafa;
+	width: 100%;
+	height: 100%;
+}
+.beijing .top{
+	width: 100%;
+	height: 1rem;
+	background-color: #ffffff;
+	box-sizing: border-box;
+	position: relative;
+	line-height: 1rem;
+	border-bottom: 0.01rem solid #F5F5F5;
+}
+.beijing .top a{
+	float: left;
+	font-weight:500;
+	position: absolute;
+	font-size: 0.5rem;
+	top: 0;
+	left: 0.25rem;	
+	color: #3e3b3b;
+}
+.beijing .top p{
+	font-size:0.34rem;
+	font-family:PingFangSC-Medium;
+	font-weight:bold;
+	color: #525252;
+	text-align: center;
+}
+.beijing img{
+	width: 3.32rem;
+	height: 2.46rem;
+	display: block;
+	margin: auto;
+	margin-top: 0.94rem;
+}
+.beijing b{
+	font-size: 0.3rem;
+	color: #333333;
+	display: block;
+	text-align: center;
+	margin-top: 0.68rem;
+	margin-bottom: 0.27rem;
+}
+.beijing .txt{
+	width: 6.94rem;
+	height: 0.76rem;
+	line-height: 0.5rem;
+	font-size: 0.28rem;
+	color: #666666;
+	text-align: center;
+	margin: auto;
+}

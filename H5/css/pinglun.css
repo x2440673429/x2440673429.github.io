@@ -1,0 +1,139 @@
+.top{
+	width: 100%;
+	height: 1rem;
+	background: #FFFFFF;
+	border-bottom:0.01rem solid #EEEEEE;
+	position: relative;
+	line-height: 1rem;
+}
+ .top a{
+	float: left;
+	font-weight:500;
+	position: absolute;
+	font-size: 0.5rem;
+	top: 0;
+	left: 0.25rem;	
+	color: #3e3b3b;
+	}
+.top p{
+	font-size:0.34rem;
+	font-family:PingFangSC-Medium;
+	font-weight:bold;
+	color: #525252;
+	text-align: center;
+	}
+.pin{
+	width: 100%;
+	    overflow: hidden;
+	padding: 0.2rem 0.27rem 0.39rem 0.28rem;
+	box-sizing: border-box;
+}
+.pin .pin_top{
+	width: 100%;
+	height: 0.6rem;
+}
+.pin .pin_top .xin{
+	width: 0.3rem;
+	height: 0.28rem;
+	float: right;
+}
+	
+.pin .pin_top .hongxin{
+	width: 0.3rem;
+	height: 0.28rem;
+	float: right;
+	
+	display: none;
+}
+.pin .pin_top img:first-child{
+	width: 0.6rem;
+	height: 0.6rem;
+	float: left;
+}
+.pin .pin_top .nam1{
+	color: #2f2f2f;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	font-size: 0.3rem;
+	float: left;
+	margin-left: 0.14rem;
+}
+.pin .pin_top .nam2{
+	float: right;
+	color: #333333 ;
+	font-size: 0.22rem;
+	float: right;
+	margin-left: 0.05rem;
+}
+.pin .lun{
+	width: 80%;
+	height: 0.25rem;
+	font-size: 0.26rem;
+	color: #333333;
+	margin-left: 0.74rem ;
+}
+.pin .time{
+	width: 2.2rem;
+	height: 0.18rem;
+	margin-left: 0.74rem;
+	font-size: 0.22rem;
+	color: #999999;
+	margin-top: 0.2rem;
+}
+.pin .pinglun{
+	width: 82.8%;
+	height: 3.43rem;
+	float: right;
+	padding: 0.2rem 0.18rem 0.27rem 0.2rem;
+	margin-top: 0.32rem;
+	background: #f5f5f5;
+}
+.pin .pinglun .ziji{
+	width: 100%;
+	height: 0.56rem;
+	
+}
+.pin .pinglun .ziji img:first-child{
+	width: 0.56rem;
+	height: 0.56rem;
+	float: left;
+	margin-right: 0.15rem;
+}
+.pin .pinglun .ziji .xin{
+	width: 0.32rem;
+	height: 0.28rem;
+	float: right;
+}
+.pin .pinglun .ziji .hongxin{
+		width: 0.32rem;
+		height: 0.28rem;
+		float: right;
+
+		display: none;
+}
+.pin .pinglun  .nam3{
+	font-size: 0.28rem;
+	color: #2F2F2F;
+	float: left;
+}
+.pin .pinglun  .nam4{
+	font-size: 0.22rem;
+	color: #333333;
+	float: right;
+	margin-left: 0.05rem;
+}
+.pin .pinglun  .lun1{
+	font-size: 0.24rem;
+	color: #666666;
+	margin-left: 0.71rem;
+	margin-top: 0.12rem;
+	margin-bottom: 0.41rem;
+}
+.pin .pinglun  .huifu{
+	font-size: 0.26rem;
+	color: #999999;
+	width: 3.1rem;
+	height: 0.26rem;
+	margin-left: 2.7rem;
+	margin-top: 0.6rem;
+}

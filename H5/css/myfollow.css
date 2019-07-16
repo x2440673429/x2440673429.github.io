@@ -1,0 +1,100 @@
+.beijing{
+	width: 100%;
+	height: 13.34rem;
+	background: #F2F2F2;
+}
+.beijing .top{
+	width: 100%;
+	height: 1rem;
+	background: #ffffff;
+	box-shadow:0px 1px 3px 0px rgba(0, 0, 0, 0.05);
+	box-sizing: border-box;
+	position: relative;
+	line-height: 1rem;
+}
+.beijing .top a{
+	color: #333333;
+	font-size: 0.36rem;
+	float: left;
+	font-weight:500;
+	position: absolute;
+	top: 0;
+	left: 0.25rem;
+}
+.beijing .top p{
+	font-size:0.34rem;
+	font-family:PingFangSC-Medium;
+	font-weight:bold;
+	color: #525252;
+	text-align: center;
+} 
+.beijing .who{
+	width: 6.94rem;
+	height: 1.85rem;
+	margin: auto;
+	margin-top: 0.2rem;
+	padding: 0.22rem 0.4rem 0 0.3rem;
+	background: #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 0.1rem;
+} 
+.beijing .who .photo{
+	width: 1.48rem;
+	height: 1.41rem;
+	display: inline-block;
+	float: left;
+	
+	margin-right: 0.4rem;
+}
+.beijing .who .neirong{
+	width: 1.7rem;
+	height: 1.18rem;
+	display: inline-block;
+	float: left;
+}
+.beijing .who .neirong p{
+	width: 100%;
+	font-size: 0.32rem;
+	color: #333333;
+	float: left;
+	margin-top: 0.17rem;
+}
+.beijing .who .neirong a{
+		font-size: 0.32rem;
+		color: #999999;
+		float: left;
+		margin-left: 0.02rem;
+		margin-top: 0.29rem;
+}
+.beijing .who  .gz{
+	width: 1.4rem;
+	height: 0.6rem;
+	border: 0.01rem solid #e83342;
+	border-radius: 0.1rem;
+	display: inline-block;
+	float: right;
+	margin-right: 0.05rem;
+	font-size: 0.32rem;
+	text-align: center;
+	line-height: 0.6rem;
+	font-weight: 400;
+	color:	 #ff7365;
+	margin-top: 0.45rem;
+	
+}
+.beijing .who  .ygz{
+	width: 1.4rem;
+	height: 0.6rem;
+	border: 0.01rem solid #999999;
+	border-radius: 0.1rem;
+	display: inline-block;
+	float: right;
+	margin-right: 0.05rem;
+	font-size: 0.32rem;
+	text-align: center;
+	line-height: 0.6rem;
+	font-weight: 400;
+	color:	 #999999;
+	margin-top: 0.45rem;
+	display: none;
+}

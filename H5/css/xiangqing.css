@@ -1,0 +1,240 @@
+.beijing{
+	width: 100%;
+	height: 100%;
+	background: #F9F9F9;
+}
+.beijing .dongtai{
+	width: 7.5rem;
+	height: 1.28rem;
+	background: #FFFFFF;
+	position: relative;
+}
+.beijing .dongtai a{
+	font-size: 0.8rem;
+	margin-left: 0.25rem;
+	
+}
+.beijing .dongtai p{
+	font-size: 0.48rem;
+	position: absolute;
+	bottom: 0.25rem;
+	left: 50%;
+	margin-left: -1rem;
+	text-align: center;
+}
+.beijing .shangjia{
+	width: 100%;
+	background-color: #FFFFFF;
+	margin: 0.2rem 0 0 0;
+	padding: 0.22rem 0.29rem 0.12rem 0.26rem;
+	box-sizing: border-box;
+}
+.beijing .shangjia .top{
+	overflow: hidden;
+	margin-bottom: 0.15rem;
+}
+.beijing .shangjia .top img{	
+		width: 0.96rem;
+		height: 0.96rem;
+		float: left;
+		margin-right: 0.14rem;
+}
+.beijing .shangjia .top  .wanbao{
+	display: inline-block;
+	width: 2.6rem;
+	float: left;
+}
+.beijing .shangjia .top  .wanbao P:first-child{
+	font-size: 0.32rem;
+	color: #333333;
+	font-family:PingFangSC-Regular;
+	font-weight:400;
+}
+.beijing .shangjia .top  .wanbao P:last-child{
+	color: #333333;
+	font-size: 0.26rem;
+	font-family:PingFangSC-Regular;
+	font-weight:400;
+}
+.beijing .shangjia .top a{
+	float: right;
+	display: inline-block;
+	width: 2rem;
+	height: 0.8rem;
+	text-align: center;
+	line-height: 0.8rem;
+	color: #FF7365;
+	font-size: 0.28rem;
+	background: url(../img/gzk@2x.png)no-repeat;
+	margin-right: 0.31rem;
+}
+.beijing .shangjia  .haidilaao{
+	width: 6.92rem;
+	height: 7.8rem;
+}
+	
+.beijing .shangjia  .text p{
+	width: 6.27rem;
+
+	font-size: 0.26rem;
+	color: #666666;
+
+}
+.beijing .shangjia  .text{
+	height: 10.8rem;
+	overflow: hidden;
+	position: relative;
+	
+}
+.beijing .shangjia .quanwen{
+	
+
+	position:absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background:linear-gradient(to top,#fff,rgba(255,255,255,0) 95%);
+	
+	
+	
+	
+}
+.beijing .shangjia .quanwen a{
+	font-size: 0.26rem;
+	color: #666666;
+	font-family:PingFangSC-Medium;
+	font-weight:500;
+	position: absolute;
+	bottom: 0.9rem;
+	left: 50%;
+	margin-left: -0.52rem;
+}
+.beijing .shangjia .quanwen img{
+	width: 0.3rem;
+    height: 0.3rem;
+    position: absolute;
+    bottom: 0.55rem;
+    left: 50%;
+    margin-left: -0.15rem;
+}
+
+.beijing .shangjia .dizhi{
+	width: 3.12rem;
+	height: 0.37rem;
+	float: left;
+	margin-bottom: 0.29rem;
+}
+.beijing .shangjia .dizhi img{
+	width: 0.28rem;
+	height: 0.28rem;
+	float: left;
+	
+	margin-top: 0.05rem;
+}
+.beijing .shangjia .dizhi a{
+	color: #FF7365;
+	font-size: 0.26rem;
+	display: block;
+	margin-left: 0.35rem;
+	width: 3.5rem;
+}
+.beijing .shangjia .pinglun{
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 0.36rem;
+}
+.beijing .shangjia .pinglun img{
+	width: 0.44rem;
+	height: 0.44rem;
+	float: left;
+	margin-right: 0.1rem;
+}
+.beijing .shangjia .pinglun a{
+	font-size:0.26rem;
+	color:#666666;
+	float: left;
+}
+.beijing .shangjia .pinglun .dianzan{
+	width: 1.2rem;
+	margin-right: 0.4rem;
+	float: left;
+}
+.beijing .shangjia .pinglun .fenxiang{
+	margin-right: 3.2rem;
+	float: left;
+}
+.beijing .shangjia .txt{
+	width: 6.9rem;
+	height: 1.6rem;
+	margin: auto;
+	
+}
+.beijing .shangjia .txt .plk{
+	width: 100%;
+	height: 1.6rem;
+	background: url(../img/j@2x.png)no-repeat;
+	background-size:100% 100% ; 
+	padding: 0.2rem 0 0 0.2rem;
+	
+	box-sizing: border-box;
+}
+.beijing .shangjia .txt .plk h6{
+	color: #999999;
+	font-size: 0.24rem;
+	margin-bottom: 0.11rem;
+}
+.beijing .shangjia .txt .plk b{
+	font-size: 0.24rem;
+	color: #333333;
+	float: left;
+}
+
+.beijing .shangjia .txt .plk a{
+	font-size: 0.2rem;
+	color: #333333;
+	float: left;
+}
+.beijing .shangjia .txt .plk  p{
+	width: 100%;
+	height: 0.3rem;
+	margin-bottom: 0.09rem;
+}
+.beijing  .kuai {
+	width: 6.94rem;
+	height: 0.45rem;
+	margin: auto;
+	margin-top: 0.08rem;
+	margin-bottom: 0.56rem;
+}
+.beijing .kuai  img{
+	width: 0.44rem;
+	height: 0.44reem;
+	float: left;
+}
+.beijing  .kuai a{
+	width:1.2rem;
+	height: 0.28rem;
+	font-size:0.2rem;
+	color: #999999;
+	margin-left: 0.12rem;
+	margin-top: 0.08rem;
+	display: inline-block;
+	float: left;
+}
+.beijing .hongbao{
+	width: 6.94rem;
+	height: 1.5rem;
+	display: block;
+	margin: auto;
+	margin-bottom: 0.4rem;
+	
+	
+}
+.beijing .shangjia .hd{
+	font-size: 0.46rem;
+	color: #333333;
+	font-family:PingFangSC-Semibold;
+	font-weight:600;
+	margin-bottom: 0.15rem;
+}

@@ -1,0 +1,355 @@
+.top{
+	width: 100%;
+	height: 3.2rem;
+	background: url(../img/banner@2x.png)no-repeat;
+	background-size: 100% 100%;
+}
+.top a{
+	font-size: 0.5rem;
+    color: #333333;
+    float: left;
+    margin: 0.5rem 0 0 0.2rem;
+}
+.activity{
+	width: 6.94rem;
+	height: 1rem;
+	border-radius: 0.1rem;
+	background: linear-gradient(90deg,rgba(255,115,101,1),rgba(255,152,50,1));
+	color: #FFFFFF;
+	font-size: 0.32rem;
+	margin: auto;
+	margin-top: 0.28rem;
+	text-align: left;
+	line-height: 1rem;
+	padding: 0 0.3rem;
+	box-sizing: border-box;
+}
+.activity span{
+	float: left;
+	font-weight: 300;
+}
+.activity a{
+	font-size: 0.28rem;
+	display: inline-block;
+	width: 1.83rem;
+	height: 0.59rem;
+	border: 0.03rem solid #ffffff;
+	border-radius: 0.3rem;
+	float: left;
+	margin-top: 0.2rem;
+	line-height: 0.59rem;
+	text-align: center;
+}
+.activity img{
+	width: 0.3rem;
+	height: 0.3rem;
+	float: right;
+	margin-top: 0.35rem;
+	margin-right: 0.1rem;
+}
+.activity b{
+	float: right;
+	font-weight: 400;
+}
+.fuli{
+	width: 6.94rem;
+	height: 1.5rem;
+	margin: auto;
+	position: relative;
+	margin-top: 0.3rem;
+}
+.fuli img{
+	width: 6.94rem;
+	height: 1.5rem;
+}
+.fuli p{
+	width: 2.2rem;
+	height: 0.4rem;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	border-radius: 0.12rem 0;
+	color: #FFFFFF;
+	background: rgba(0,0,0,0.5);
+	line-height: 0.4rem;
+	font-size: 0.24rem;
+	text-align: center;
+}
+.product{
+	width: 100%;
+	padding: 0.31rem 0.28rem 0;
+	box-sizing: border-box;
+	margin-bottom: 1.05rem;
+	overflow: hidden;
+}
+.product .Goods{
+	padding: 0.31rem  0;
+	box-sizing: border-box;
+	width: 2.31rem;
+	height: 2.34rem;
+	border-bottom: 0.01rem solid #EBEBEB;
+	float: left;
+}
+.product .Goods img{
+	width: 0.64rem;
+	display: block;
+	margin: auto;
+}
+.product .Goods b{
+	font-size: 0.24rem;
+	color: #333333;
+	display: block;
+	text-align: center;
+	margin-top: 0.3rem;
+	margin-bottom: 0.12rem;
+}
+.product .Goods a{
+	font-size: 0.22rem;
+	color: #FF7365;
+	display: block;
+	text-align: center;
+}
+.product  .bor{
+	width: 100%;
+	height: 0.01rem;
+	border-bottom: 0.01rem solid #EBEBEB;
+}
+
+
+
+ .bottom{
+	width: 100%;
+	height: 1.05rem;
+	border-top: 0.01rem solid azure;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #FFFFFF;
+	z-index: 999;
+	display: -webkit-flex;
+	display: flex;
+}
+ .bottom .index{
+	width: 0.8rem;
+	height: 0.9rem;
+	margin: 0.2rem 0.85rem;
+	float: left;
+}
+
+ .bottom .index  a{
+	font-size: 0.2rem;
+	color: #666666;
+	text-decoration: none;
+	display: block;
+	 text-align: center;
+}
+ .bottom .off a{
+	font-size: 0.2rem;
+    color: #333333;
+    font-family: Adobe Heiti Std R;
+    text-decoration: none;
+    display: block;
+
+}
+ .bottom .index img{
+	width: 0.44rem;
+    height: 0.44rem;
+    display: block;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+.beijing1{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.beijing1  .lqgz{
+	width: 6.2rem;
+	height: 7.80;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -3.9rem;
+	margin-left: -3.1rem;
+}
+.beijing1 .lingqu{
+	width: 6.2rem;
+	height: 6.5rem;
+	background: #FFFFFF;
+	border-radius: 0.35rem;
+}
+.beijing1 .lingqu a{
+	width: 100%;
+	height: 1rem;
+	display: block;
+	text-align: center;
+	line-height: 1rem;
+	color: #FFFFFF;
+	font-size: 0.3rem;
+	background: linear-gradient(90deg,rgba(255,115,101,1),rgba(255,152,50,1));
+	margin-bottom: 0.6rem;
+	border-radius: 0.35rem 0.35rem 0 0 ;
+}
+.beijing1 .lingqu p{
+	width: 4.92rem;
+	font-size: 0.28rem;
+	color: #666666;
+	margin: auto;
+	line-height: 0.5rem;	
+}
+.beijing1 img{
+	width: 0.64rem;
+	height: 0.64rem;
+	display: block;
+	margin: auto;
+	margin-top: 0.66rem;
+}
+
+
+
+.beijing{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.beijing .that{
+	width: 6.2rem;
+	height: 8.26rem;
+	background: #FFFFFF;
+	border-radius: 0.2rem;
+	padding: 0.66rem  0.71rem ;
+	box-sizing: border-box;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -4.13rem;
+	margin-left: -3.1rem;
+}
+.beijing .that .befor{
+	width: 100%;
+	height: 1.8rem;
+	border-bottom: 0.01rem solid #dcdcdc;
+	box-sizing: border-box;
+}
+.beijing .that .befor img{
+	width: 1rem;
+	height: 1rem;
+	float: left;
+	display: inline-block;
+}
+.beijing .that .befor .nerb{
+	height: 1rem;
+	margin-left: 0.6rem;
+	display: inline-block;
+	float: left;
+}
+.beijing .that .befor .nerb b{
+	font-size: 0.3rem;
+	color: #333333;
+	display: block;
+	margin-top: 0.15rem;
+}
+.beijing .that .befor .nerb a{
+	font-size: 0.26rem;
+	display: block;
+	color: #666666;
+	margin-top: 0.18rem;
+}
+.beijing .that .befor .nerb a span{
+	color: #FF7365;
+}
+.beijing .that .befor .nerb .baojing{
+	color: red;
+	font-size: 0.3rem;
+	float: right;
+	margin-right: -0.2rem;
+	margin-top: 0.1rem;
+	display: none;
+}
+.beijing .that  .next{
+	width: 100%;
+	height: 1rem;
+	border-bottom: 0.01rem solid #dcdcdc;
+	box-sizing: border-box;
+}
+.beijing .that  .next b{
+	font-size: 0.3rem ;
+	color: #333333;
+	float: left;
+	margin-top: 0.3rem;
+}
+.beijing .that  .next a{
+	width: 0.5rem;
+	height: 0.5rem;
+	display: inline-block;
+	text-align: center;
+	line-height: 0.5rem;
+	color: #666666;
+	border: 0.01rem solid #E8E8E8;
+	font-size: 0.38rem;
+	float: right;
+	margin-top: 0.25rem;
+}
+.beijing .that  .next span{
+	display: inline-block;
+	width: 0.66rem;
+	height: 0.5rem;
+	font-size: 0.28rem;
+	color: #666666;
+	text-align: center;
+	line-height: 0.5rem;
+	border-bottom:0.01rem solid #E8E8E8; 
+	border-top: 0.01rem solid #E8E8E8;
+	float: right;
+	margin-top: 0.25rem;
+}
+.beijing .that  .next em{
+	font-style: normal;
+	font-size: 0.28rem;
+	color: #FF7365;
+	margin-top: 0.35rem;
+	float: right;
+}
+.beijing .that .bom{
+	width: 4.8rem;
+	height: 0.8rem;
+	background:linear-gradient(90deg,rgba(255,115,101,1),rgba(255,152,50,1));
+	font-size: 0.32rem;
+	color: #FEFEFE;
+	text-align: center;
+	line-height: 0.8rem;
+	border-radius: 0.38rem;
+	margin-top: 0.6rem;
+	margin-bottom: 0.66rem;
+}
+.beijing .that p{
+	width: 100%;
+	height: 1.32rem;
+	line-height: 0.36rem;
+	font-size: 0.23rem;
+	color: #999999;
+}
+.beijing  .cuo{
+	width: 0.64rem;
+	height: 0.64rem;
+	position: absolute;
+	left: 50%;
+	margin-left: -0.32rem;
+	top:50%;
+	margin-top: 4.39rem;
+}

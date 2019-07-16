@@ -1,0 +1,68 @@
+.beijing{
+	background: #F9F9F9;
+	width: 100%;
+	height: 100%;
+}
+.beijing .top{
+	width: 100%;
+	height: 1.8rem;
+	background-color: #FFFFFF;
+	box-sizing: border-box;
+	position: relative;
+	line-height: 1rem;
+}
+.beijing .top span{
+	float: left;
+	font-weight:500;
+	position: absolute;
+	font-size: 0.5rem;
+	top: 0;
+	left: 0.25rem;	
+	color: #3e3b3b;
+}
+.beijing .top p{
+	font-size:0.34rem;
+	font-family:PingFangSC-Medium;
+	font-weight:bold;
+	color: #525252;
+	text-align: center;
+}
+.beijing .top input{
+	width: 6.21rem;
+	height: 0.68rem;
+	background: url(../img/sousuo1@2x.png)no-repeat;
+	background-size: 100% 100%;
+	border: none;
+	outline: none;
+	float: left;
+	margin-left: 0.28rem;
+	font-size: 0.3rem;
+	padding-left: 0.2rem;
+	box-sizing: border-box;
+}
+.beijing .top a{
+	display: inline-block;
+	font-size: 0.26rem;
+	color: #000000;
+	position: absolute;
+	bottom: -0.05rem;
+	right: 0.3rem;
+	margin: 0.2rem 0 0 0.23rem;
+}
+.beijing  .zuji .yiguanz{
+	border: 0.01rem solid  #999999;
+	width: 1.4rem;
+	height: 0.6rem;
+	border-radius:10px;
+	float: right;
+	margin: 0.27rem 0.09rem 0 0;
+}
+.beijing  .zuji .yiguanz a{
+	color: #999999;
+	font-size: 0.3rem;
+	text-align: center;
+	width: 1.4rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+}
+	

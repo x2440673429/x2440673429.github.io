@@ -1,0 +1,64 @@
+html,body{
+	height: 100%;
+}
+.beijing{
+	background: #fafafa;
+	width: 100%;
+	height: 100%;
+}
+.beijing .top{
+	width: 100%;
+	height: 1rem;
+	background-color: #ffffff;
+	box-sizing: border-box;
+	position: relative;
+	line-height: 1rem;
+	border-bottom: 0.01rem solid #F5F5F5;
+	margin-bottom: 0.21rem;
+}
+.beijing .top a{
+	float: left;
+	font-weight:500;
+	position: absolute;
+	font-size: 0.5rem;
+	top: 0;
+	left: 0.25rem;	
+	color: #3e3b3b;
+}
+.beijing .top p{
+	font-size:0.34rem;
+	font-family:PingFangSC-Medium;
+	font-weight:bold;
+	color: #525252;
+	text-align: center;
+}
+.beijing .Card{
+	width: 6.94rem;
+	height: 2.26rem;
+	background: #FFFFFF;
+	margin: auto;
+	margin-bottom: 0.14rem;
+	padding: 0.38rem 0.41rem 0 0.33rem;
+	box-sizing: border-box;
+}
+.beijing .Card .Clip{
+	width: 2.5rem;
+	float: left;
+}
+.beijing .Card a{
+	font-size: 0.26rem;
+	color: #666666;
+	display: block;
+}
+.beijing .Card b{
+	font-size: 0.32rem;
+	color: #333333;
+	margin: 0.4rem 0 0.18rem 0 ;
+	display: block;	
+}
+.beijing .Card img{
+	width: 1.5rem;
+	height: 1.5rem;
+	display: inline-block;
+	float: right;
+}

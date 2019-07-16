@@ -1,0 +1,132 @@
+.beijing{
+	width: 100%;
+	height: 13.34rem;
+	background: #F9F9F9;
+}
+.beijing .top{
+	width: 100%;
+	height: 1rem;
+	background: #ffffff;
+	box-shadow:0px 1px 3px 0px rgba(0, 0, 0, 0.05);
+	box-sizing: border-box;
+	position: relative;
+	line-height: 1rem;
+}
+.beijing .top a{
+	color: #333333;
+	font-size: 0.36rem;
+	float: left;
+	font-weight:500;
+	position: absolute;
+	top: 0;
+	left: 0.25rem;
+}
+.beijing .top p{
+	font-size:0.34rem;
+	font-family:PingFangSC-Medium;
+	font-weight:bold;
+	color: #525252;
+	text-align: center;
+} 
+.beijing  .dt{
+	width: 50%;
+	height: 0.9rem;
+	background: #FFFFFF;
+	text-align: center;
+	line-height: 0.9rem;
+	font-size:0.3rem;
+	color: #999999;
+	display: inline-block;
+	float: left;
+	font-family:PingFangSC-Medium;
+font-weight:500;
+}
+.beijing .sp{
+	width: 100%;
+	height: 0.9rem;
+}
+.beijing .sp .dt{
+	width: 50%;
+	height: 0.9rem;
+	background: #FFFFFF;
+	text-align: center;
+	line-height: 0.9rem;
+	font-size:0.3rem;
+	color: #999999;
+	display: inline-block;
+	float: left;
+	font-family:PingFangSC-Medium;
+	font-weight:500;
+	margin-bottom: 0.2rem;
+}
+.beijing .sp  .color{
+	width: 50%;
+	height: 0.9rem;
+	background: #FFFFFF;
+	text-align: center;
+	line-height: 0.9rem;
+	font-size:0.3rem;
+	display: inline-block;
+	float: left;
+	font-family:PingFangSC-Medium;
+	font-weight:500;
+	color: #FF7365;
+	
+}
+.beijing .sp .dt .bor{
+	display: none;
+}
+.beijing .sp .color .bor{
+	width: 0.5rem;
+	border-bottom: 0.05rem solid #FF7365;
+	margin: auto;
+	margin-top: -0.2rem;
+	border-radius: 0.18rem;
+	display: block;
+}
+.beijing .neirong{
+	width: 6.94rem;
+	height: 1.85rem;
+	margin: auto;
+	margin-top: 0.2rem;
+	padding: 0.22rem 0.4rem 0 0.3rem;
+	background: #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 0.1rem;	
+}
+.beijing .neirong .photo{
+	width: 1.48rem;
+	height: 1.41rem;
+	display: inline-block;
+	float: left;
+	margin-right: 0.2rem;
+}
+.beijing .neirong .js{
+	width: 4.56rem;
+	height: 1.42rem;
+	display: inline-block;
+	float: left;
+}
+.beijing .neirong .js p{
+	width: 100%;
+	height: 0.82rem;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	font-size: 0.29rem;
+	color: #333333;
+	margin-bottom: 0.16rem;
+}
+.beijing .neirong .js a{
+	font-size: 0.3rem;
+	color: #FF7365;
+	float: left;
+}
+.beijing .neirong .js img{
+	float: right;
+	width: 0.44rem;
+	height: 0.44rem;
+	margin-right: -0.1rem;
+}
