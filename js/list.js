@@ -1,19 +1,10 @@
 $(document).ready(function(){
    
   
-
-
-
-
-
-
-
-
-
-
     $('.dan').hover(function(){
 
       var str=$(this).children('.xiangxia').css("background-position");
+      console.log(str)
       var num = str.slice(1,4);
       if(num=='450'){
          $(this).children('.xiangxia').css("background-position",'-450px -60px');

@@ -151,9 +151,9 @@ ul img{
 .Soar_top  button span{
     display: inline-block;
     width: 9px;
-    height: 15px;
+    height: 14px;
     background: url(https://www.kugou.com/yy/static/images/play_icon.png);
-    
+    vertical-align: -2px;
 }
 .Soar_top  button b{
     font-weight:normal ; 

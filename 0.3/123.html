@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+   
+</head>
+<body>
+    <div id='app'>
+        <p>{{msg}}</p>
+        <p ></p>
+    </div>
+        <script>
+        var login={
+            template:'<h1>这是登录组件</h1>'
+        }
+       
+        var vm= new Vue({
+            el:"#app",
+            data:{
+                msg:'欢迎学习Vue',
+              
+            },
+            methods:{
+
+            },
+            render:function(createElements){//createElements 是一个方法，调用他能够把指定的组件模板渲染为HTML结构
+              return  createElements(login)
+                //注意：这里return的结果会替换页面中el指定的那个容器
+            }
+         })
+         
+        </script>
+</body>
+</html>
